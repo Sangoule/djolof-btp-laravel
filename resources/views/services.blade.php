@@ -5,15 +5,8 @@
         <header class="header primary-bg" data-page="services">
             <div class="header_navbar">
                 <div class="container d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between">
-                    <a class="brand d-inline-flex align-items-center justify-content-center" href="index.html">
-                        <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0V12L7.00543 6.48334L0 0Z" fill="#FFC631" />
-                            <path d="M0 31L7.00543 24.5151L0 19V31Z" fill="#FFC631" />
-                            <path d="M12.8208 14.3662L30.0233 0H19.9966L0 16L12.8208 14.3662Z" fill="#0DA574" />
-                            <path d="M0 16L19.9966 31H30.0233L12.8208 17.5239L0 16Z" fill="#0DA574" />
-                        </svg>
-
-                    DJOLOF<span class="highlight">-BTP</span>
+                    <a class="brand d-inline-flex align-items-center justify-content-center" href="/">
+                        <img src="{{ asset('assets/img/logo-td.png') }}" width="250" height="250" alt="imglogo">
                     </a>
                     @include('navbar')
                     <button class="hamburger">
@@ -24,26 +17,7 @@
                     </button>
                 </div>
             </div>
-
             <div class="header_extension">
-                <div class="container">
-                    <div class="section_header">
-                        <span class="subtitle subtitle--extended">Building communities</span>
-                        <h1 class="title">Services</h1>
-                        <ul class="breadcrumbs d-flex align-items-center">
-                            <li class="breadcrumbs_item">
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li class="breadcrumbs_item breadcrumbs_item--current">
-                                <span>Services</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <picture>
-                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" data-role="deco" />
-                    <img class="lazy plan" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" data-role="deco" />
-                </picture>
             </div>
         </header>
         <!-- SERVICES CONTENT START -->
