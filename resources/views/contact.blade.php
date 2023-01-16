@@ -7,7 +7,7 @@
                     <div class="header_navbar">
                     <div class="container d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between">
                     <a class="brand d-inline-flex align-items-center justify-content-center" href="/">
-                        <img src="{{ asset('assets/img/logo-td.png') }}" width="250" height="250" alt="imglogo">
+                        <img src="{{ asset('assets/img/logo-td.png') }}" width="70" height="70" alt="imglogo">
                     </a>
                     @include('navbar')
                     <button class="hamburger">
@@ -46,14 +46,12 @@
                 <div class="container d-flex flex-wrap justify-content-center justify-content-lg-between align-items-end">
                     <div class="wrapper wrapper--form col-12 col-lg-6">
                         <div class="contact_header section_header">
-                            <span class="subtitle">Contact us</span>
+                            <span class="subtitle"></span>
                             <h2 class="title">
-                                Get
-                                <span class="highlight">In Touch</span>
+                                N'hésitez pas à nous <span class="highlight">Contacter </span>
                             </h2>
                             <p class="text">
-                                Pellentesque sit amet porttitor eget dolor morbi non arcu. Vitae justo eget magna fermentum iaculis eu non
-                            </p>
+Vous avez un projet de construction, d’acquisition d’une parcelle, un projet immobilier ; n’hésitez pas à nous contacter. Notre équipe de professionnel reste à votre disposition. Tel: +221 77.000.00.00 / +33.00.00.00.00                             </p>
                         </div>
                         <form
                             action="#"
@@ -67,7 +65,7 @@
                                 name="feedbackName"
                                 id="feedbackName"
                                 type="text"
-                                placeholder="Full name"
+                                placeholder="Nom"
                             />
                             <input
                                 class="contact-form_field contact-form_field--half field required"
@@ -75,7 +73,7 @@
                                 type="text"
                                 name="feedbackTel"
                                 id="feedbackTel"
-                                placeholder="Phone"
+                                placeholder="telephone"
                             />
                             <input
                                 class="contact-form_field field required"
@@ -83,7 +81,7 @@
                                 type="text"
                                 name="feedbackEmail"
                                 id="feedbackEmail"
-                                placeholder="Email Address"
+                                placeholder="Email "
                             />
                             <textarea
                                 class="contact-form_field field required"
@@ -92,7 +90,7 @@
                                 id="feedbackMessage"
                                 placeholder="Message"
                             ></textarea>
-                            <button type="submit" class="contact-form_btn btn">Send message</button>
+                            <button type="submit" class="contact-form_btn btn">Envoyer message</button>
                         </form>
                     </div>
                     <div class="wrapper wrapper--bg col-12 col-lg-5">
