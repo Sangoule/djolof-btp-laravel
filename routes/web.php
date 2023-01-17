@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 
 Route::get('/a-propos', function () {
@@ -30,6 +30,6 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/index1', function () {
+Route::get('/', function () {
     return view('index1');
 });

@@ -1,5 +1,4 @@
 
-    <header class="header primary-bg" data-page="home2">
         <div class="header_navbar">
             <div class="container d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between">
                 <a class="brand d-inline-flex align-items-center justify-content-center" href="/">
@@ -14,5 +13,4 @@
                 </button>
             </div>
         </div>
-    </header>
 

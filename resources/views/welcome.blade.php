@@ -2,7 +2,7 @@
         <link rel="stylesheet" href="{{ asset('assets/css/index2.min.css') }}" />
     </head>
     <body>
-        {{-- <header class="header primary-bg" data-page="home2">
+        <header class="header primary-bg" data-page="home2">
             <div class="header_navbar">
                 <div class="container d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between">
                     <a class="brand d-inline-flex align-items-center justify-content-center" href="index.html">
@@ -89,8 +89,8 @@
                     </button>
                 </div>
             </div>
-        </header> --}}
-        @include('header')
+        </header>
+        {{-- @include('header') --}}
         <!-- HOME 2 CONTENT START  -->
         <main>
             <section class="hero primary-bg">
@@ -1209,4 +1209,3 @@
         </main>
         <!-- HOME 2 CONTENT END  -->
         @include('footer')
-        
