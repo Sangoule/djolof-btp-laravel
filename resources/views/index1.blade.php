@@ -4,54 +4,37 @@
     </head>
     <body>
         <header class="header primary-bg" data-page="home">
-            {{-- <div class="header_navbar">
-                <div class="container d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between">
-                    <a class="brand d-inline-flex align-items-center justify-content-center" href="index.html">
-                        <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0V12L7.00543 6.48334L0 0Z" fill="#FFC631" />
-                            <path d="M0 31L7.00543 24.5151L0 19V31Z" fill="#FFC631" />
-                            <path d="M12.8208 14.3662L30.0233 0H19.9966L0 16L12.8208 14.3662Z" fill="#0DA574" />
-                            <path d="M0 16L19.9966 31H30.0233L12.8208 17.5239L0 16Z" fill="#0DA574" />
-                        </svg>
-                        DJOLOF<span class="highlight">-BTP</span>
-                    </a>
-                    @include('navbar')
-                    <button class="hamburger">
-                        <span class="line line--short"></span>
-                        <span class="line"></span>
-                        <span class="line line--short"></span>
-                        <span class="line"></span>
-                    </button>
-                </div>
-            </div> --}}
             @include('header-navbar')
         </header>
         <!--  HOMEPAGE CONTENT START  -->
         <main>
             <section class="hero primary-bg">
                 <picture>
-                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" data-role="deco" />
-                    <img class="plan lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" data-role="deco" />
+                    {{-- <source data-srcset="{{ asset('assets/img/8.jpeg') }}" srcset="{{ asset('assets/img/8.jpeg') }}" type="image/webp" data-role="deco" /> --}}
+                    <img class="plan lazy" data-src="{{ asset('assets/img/8.jpeg') }}" src="{{ asset('assets/img/8.jpeg') }}" alt="media" data-role="deco" />
                 </picture>
                 <div class="container hero_container d-md-flex flex-wrap justify-content-between">
                     <picture>
                         <source
-                            data-srcset="img/placeholder.jpg"
-                            srcset="img/placeholder.jpg"
+                            {{-- data-srcset="{{ asset('assets/img/8.jpeg') }}" --}}
+                            srcset="{{ asset('assets/img/8.jpeg') }}"
                             type="image/webp"
                             data-role="deco"
+                            width=50%
+
                         />
                         <img
                             class="hero_building lazy"
-                            data-src="img/placeholder.jpg"
-                            src="img/placeholder.jpg"
+                            data-src="{{ asset('assets/img/8.jpeg') }}"
+                            src="{{ asset('assets/img/8.jpeg') }}"
                             alt="media"
                             data-role="deco"
+                            width=57%
                         />
                     </picture>
                     <div class="hero_header section_header col-md-7 col-xl-auto">
                         <span class="subtitle subtitle--extended"> Professional. Innovative. Reliable. </span>
-                        <h1 class="title">Exceptional Service Exceeding Expectations</h1>
+                        <h1 class="title">Exceptionals Service Exceeding Expectations</h1>
                         <p class="text">
                             Our civil and structural team is committed to providing sustainable, creative & efficient engineering solutions
                             for our communities
@@ -100,13 +83,14 @@
                         <div class="hero_info-card" data-wow-delay="100" data-wow-duration="600">
                             <span class="hero_info-card_underlay"></span>
                             <div class="wrapper">
-                                <h3 class="title">Residential House</h3>
-                                <span class="square highlight d-flex align-items-center">78 000 м <sup>2</sup></span>
-                                <span class="info">Amount work done</span>
+                                <h3 class="title">Maison résidentielle</h3>
+                                <h2 class="countNum number square highlight d-flex align-items-center" data-suffix="+" data-value="78000">0м <sup>2</sup></h2>
+                                <span class="square highlight d-flex align-items-center">м <sup>2</sup></span>
+                                {{-- <span class="info">Amount work done</span>
                                 <a class="link link-arrow" href="#">
                                     Details
                                     <i class="icon-arrow_right"></i>
-                                </a>
+                                </a> --}}
                             </div>
                             <picture>
                                 <source

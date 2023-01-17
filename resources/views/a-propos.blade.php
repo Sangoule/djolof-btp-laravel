@@ -9,14 +9,14 @@
             <div class="header_extension">
                 <div class="container">
                     <div class="section_header">
-                        <span class="subtitle subtitle--extended">Building communities</span>
-                        <h1 class="title">About</h1>
+                        <span class="subtitle subtitle--extended">Construire des communautés</span>
+                        <h1 class="title">A Propos</h1>
                         <ul class="breadcrumbs d-flex align-items-center">
                             <li class="breadcrumbs_item">
-                                <a href="index.html">Home</a>
+                                <a href="/">Accueil</a>
                             </li>
                             <li class="breadcrumbs_item breadcrumbs_item--current">
-                                <span>About</span>
+                                <span>A Propos</span>
                             </li>
                         </ul>
                     </div>
@@ -32,7 +32,7 @@
             <section class="hero section">
                 <div class="container d-flex flex-wrap flex-xl-nowrap align-items-xl-center justify-content-between">
                     <div class="hero_header section_header col-xl-auto">
-                        <span class="subtitle" data-aos="fade-down">Who we are</span>
+                        <span class="subtitle" data-aos="fade-down">Qui sommes-nous ?</span>
                         <h2 class="title" data-aos="fade-right">
                             Bringing
                             <span class="highlight">Your Ideas</span>
@@ -64,12 +64,12 @@
                     </div>
                     <div class="hero_img" data-aos="zoom-in" data-aos-duration="700">
                         <picture>
-                            <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
+                            <source data-srcset="{{ asset('assets/img/logo.jpeg') }}"  srcset="img/placeholder.jpg" type="image/webp" />
                             <img
                                 class="hero_img-img lazy"
-                                data-src="img/placeholder.jpg"
-                                src="img/placeholder.jpg"
-                                alt="media"
+                                data-src="{{ asset('assets/img/logo.jpeg') }}"
+                                src="{{ asset('assets/img/logo.jpeg') }}"
+                                alt="medias"
                             />
                         </picture>
                     </div>
