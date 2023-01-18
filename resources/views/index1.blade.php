@@ -84,7 +84,9 @@
                             <span class="hero_info-card_underlay"></span>
                             <div class="wrapper">
                                 <h3 class="title">Maison résidentielle</h3>
-                                <h2 class="countNum number square highlight d-flex align-items-center" data-suffix="+" data-value="78000">0м <sup>2</sup></h2>
+                                <h2 class="countNum number square highlight d-flex align-items-center" data-value="78000" data-suffix="+" >
+                                    <span class="square highlight d-flex align-items-center">м <sup>2</sup></span>
+                                </h2>
                                 <span class="square highlight d-flex align-items-center">м <sup>2</sup></span>
                                 {{-- <span class="info">Amount work done</span>
                                 <a class="link link-arrow" href="#">
@@ -114,16 +116,16 @@
             <section class="services section">
                 <div class="container">
                     <div class="services_header section_header">
-                        <span class="subtitle"> What we do </span>
+                        <span class="subtitle"> Ce que nous faisons </span>
                         <h2 class="title" data-aos="fade-right" data-aos-duration="500">
-                            Multi-Disciplined Engineering <span class="highlight">Solutions</span>
+                            Ingénierie pluridisciplinaire <span class="highlight">Solutions</span>
                         </h2>
                     </div>
                     <ul class="services_list row g-0">
                         <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="1">
                             <div class="wrapper d-flex flex-column align-items-start justify-content-between">
                                 <span class="number">01</span>
-                                <h4 class="title">Process Engineering</h4>
+                                <h4 class="title">Génie des procédés</h4>
                                 <p class="description">
                                     Senectus et netus et malesuada. Nunc pulvinar sapien et ligula ullamcorper malesuada proin
                                 </p>
@@ -136,7 +138,7 @@
                         <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="2">
                             <div class="wrapper d-flex flex-column align-items-start justify-content-between">
                                 <span class="number">02</span>
-                                <h4 class="title">Construction Management</h4>
+                                <h4 class="title">Gestion de la construction</h4>
                                 <p class="description">
                                     Donec adipiscing tristique risus nec feugiat in. Porttitor massa id neque aliquam vestibulum morbi
                                 </p>
@@ -158,55 +160,15 @@
                                     <i class="icon-arrow_right"></i>
                                 </a>
                             </div>
-                        </li>
-                        <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="4">
-                            <div class="wrapper d-flex flex-column align-items-start justify-content-between">
-                                <span class="number">04</span>
-                                <h4 class="title">Electrical Engineering</h4>
-                                <p class="description">
-                                    Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Nam aliquam sem et tortor
-                                </p>
-                                <a class="link link-arrow" href="single-service.html">
-                                    Details
-                                    <i class="icon-arrow_right"></i>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="5">
-                            <div class="wrapper d-flex flex-column align-items-start justify-content-between">
-                                <span class="number">05</span>
-                                <h4 class="title">Chemistry and Metallurgy</h4>
-                                <p class="description">
-                                    Mollis nunc sed id semper. Sodales ut etiam sit amet nisl purus. Sed odio morbi quis commodo odio
-                                </p>
-                                <a class="link link-arrow" href="single-service.html">
-                                    Details
-                                    <i class="icon-arrow_right"></i>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="6">
-                            <div class="wrapper d-flex flex-column align-items-start justify-content-between">
-                                <span class="number">06</span>
-                                <h4 class="title">Specialty Services</h4>
-                                <p class="description">
-                                    Tellus elementum sagittis vitae et. Amet justo donec enim diam vulputate ut consequat id porta nibh
-                                    venenatis
-                                </p>
-                                <a class="link link-arrow" href="single-service.html">
-                                    Details
-                                    <i class="icon-arrow_right"></i>
-                                </a>
-                            </div>
-                        </li>
+
                     </ul>
                 </div>
             </section>
             <section class="projects primary-bg section">
                 <div class="container">
                     <div class="projects_header section_header">
-                        <span class="subtitle">What we do</span>
-                        <h2 class="title" data-aos="fade-right" data-aos-duration="500">Our <span class="highlight">Projects</span></h2>
+                        <span class="subtitle">Ce que nous faisons</span>
+                        <h2 class="title" data-aos="fade-right" data-aos-duration="500">Nos <span class="highlight">Projets</span></h2>
                     </div>
                     <ul class="projects_list row g-0">
                         <li class="projects_list-item col-12 col-md-6" data-order="1">
@@ -214,14 +176,11 @@
                                 <div class="img-wrapper" data-aos="fade-right">
                                     <picture>
                                         <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
+                                            data-srcset="{{ asset('assets/img/6.jpeg') }}"
                                             type="image/webp"
                                         />
                                         <img
                                             class="projects_list-item_img lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
                                             alt="Jazzy Elite Construction Shopping Center"
                                         />
                                     </picture>
@@ -247,13 +206,13 @@
                                 <div class="img-wrapper" data-aos="fade-right">
                                     <picture>
                                         <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
+                                            data-srcset="{{ asset('assets/img/7.jpeg') }}"
+                                            srcset="{{ asset('assets/img/6.jpeg') }}"
                                             type="image/webp"
                                         />
                                         <img
                                             class="projects_list-item_img lazy"
-                                            data-src="img/placeholder.jpg"
+                                            data-src="{{ asset('assets/img/6.jpeg') }}"
                                             src="img/placeholder.jpg"
                                             alt="Fresh Concept Construction Renovation"
                                         />
@@ -280,13 +239,13 @@
                                 <div class="img-wrapper" data-aos="fade-right">
                                     <picture>
                                         <source
-                                            data-srcset="img/placeholder.jpg"
+                                            data-srcset="{{ asset('assets/img/2.jpeg') }}"
                                             srcset="img/placeholder.jpg"
                                             type="image/webp"
                                         />
                                         <img
                                             class="projects_list-item_img lazy"
-                                            data-src="img/placeholder.jpg"
+                                            data-src="{{ asset('assets/img/2.jpeg') }}"
                                             src="img/placeholder.jpg"
                                             alt="Installation a  Supply System"
                                         />
@@ -313,7 +272,7 @@
                                 <div class="img-wrapper" data-aos="fade-right">
                                     <picture>
                                         <source
-                                            data-srcset="img/placeholder.jpg"
+                                            data-srcset="{{ asset('assets/img/3.jpeg') }}"
                                             srcset="img/placeholder.jpg"
                                             type="image/webp"
                                         />
@@ -350,7 +309,7 @@
                         <div class="spots_header section_header">
                             <span class="subtitle">Where we work</span>
                             <h2 class="title">
-                                <span class="highlight">Our Project </span>
+                                <span class="highlight">Nos Projet </span>
                                 in the World
                             </h2>
                         </div>
@@ -396,23 +355,23 @@
                 <div class="container p-md-0">
                     <div class="row g-0">
                         <div class="features_header section_header col-12 col-md-12 col-lg-6 col-xl-4">
-                            <span class="subtitle">Why Choose Us</span>
+                            <span class="subtitle">Pourquoi nous choisir</span>
                             <h2 class="title" data-aos="fade-right" data-aos-duration="500">
-                                <span class="highlight">Designing </span>
-                                Future with Excellence
+                                <span class="highlight">Conception </span>
+                                L'avenir avec l'excellence
                             </h2>
                             <ul class="features_header-list">
                                 <li class="features_header-list_item d-flex align-items-center" data-aos="fade-up">
                                     <i class="icon-check icon"></i>
-                                    Building the future with ideas
+                                    Construire l'avenir avec des idées
                                 </li>
                                 <li class="features_header-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="50">
                                     <i class="icon-check icon"></i>
-                                    Designing future with excellence
+                                    Concevoir l'avenir avec excellence
                                 </li>
                                 <li class="features_header-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="100">
                                     <i class="icon-check icon"></i>
-                                    Discovering possibility in concrete
+                                    Découvrir les possibilités du béton
                                 </li>
                             </ul>
                         </div>
@@ -434,7 +393,7 @@
                                     />
                                 </svg>
 
-                                <h3 class="features_card-title">We Develop Unique Projects</h3>
+                                <h3 class="features_card-title">Nous développons des projets uniques</h3>
                                 <p class="features_card-description">
                                     Senectus et netus et malesuada. Nunc pulvinar sapien et ligula ullamcorper malesuada proin
                                 </p>
@@ -464,7 +423,7 @@
                                     />
                                 </svg>
 
-                                <h3 class="features_card-title">We Value Convenience and Functionality</h3>
+                                <h3 class="features_card-title">Nous attachons de l'importance à la commodité et à la fonctionnalité</h3>
                                 <p class="features_card-description">
                                     Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies
                                 </p>
@@ -546,7 +505,7 @@
                                     />
                                 </svg>
 
-                                <h3 class="features_card-title">Experience Allows Us to Implement New Ideas</h3>
+                                <h3 class="features_card-title">L'expérience nous permet de mettre en œuvre de nouvelles idées</h3>
                                 <p class="features_card-description">
                                     Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Enim diam vulputate ut pharetra
                                 </p>
@@ -606,7 +565,7 @@
                                     />
                                 </svg>
 
-                                <h3 class="features_card-title">We Offer Innovative Technologies</h3>
+                                <h3 class="features_card-title">Nous proposons des technologies innovantes</h3>
                                 <p class="features_card-description">
                                     Consectetur adipiscing elit pellentesque habitant. Arcu felis bibendum ut tristique
                                 </p>
@@ -648,7 +607,7 @@
                                     />
                                 </svg>
 
-                                <h3 class="features_card-title">We Focus on Long-term Relationships</h3>
+                                <h3 class="features_card-title">Nous privilégions les relations à long terme</h3>
                                 <p class="features_card-description">
                                     Purus in massa tempor nec feugiat. Euismod lacinia at quis risus sed vulputate odio
                                 </p>
@@ -661,10 +620,10 @@
                 <div class="container">
                     <div class="wrapper d-flex flex-wrap align-items-end justify-content-center justify-content-sm-between">
                         <div class="team_header section_header">
-                            <span class="subtitle">Truth in engineering</span>
+                            <span class="subtitle">La vérité sur l'ingénierie</span>
                             <h2 class="title" data-aos="fade-right" data-aos-duration="500">
-                                <span class="highlight">Our Team</span>
-                                is Responsible for The Best Construction
+                                <span class="highlight">Notre équipe</span>
+                                est responsable des meilleures constructions
                             </h2>
                         </div>
                         <a class="btn team_btn" href="team.html">Our team</a>
@@ -785,6 +744,7 @@
                         </div>
                     </div>
                     <div class="accordion faq_accordion col-12 col-lg-12 col-xl-auto">
+
                         <div class="faq_accordion accordion-wrapper">
                             <button
                                 class="faq_accordion-trigger accordion-trigger"
@@ -805,6 +765,7 @@
                                 </p>
                             </div>
                         </div>
+
                         <div class="faq_accordion accordion-wrapper expanded">
                             <button
                                 class="faq_accordion-trigger accordion-trigger"
@@ -814,15 +775,12 @@
                                 aria-expanded="true"
                                 aria-controls="collapseTwo"
                             >
-                                <span class="question">What are the Service Provided by Company?</span>
+                                <span class="question">Qu'est-ce qu'un ingénieur structurel ?</span>
                                 <span class="faq_accordion-trigger_icon accordion-trigger_icon icon-minus"></span>
                             </button>
                             <div id="collapseTwo" class="faq_accordion-content accordion-content collapse show">
                                 <p class="text">
-                                    Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Non quam lacus suspendisse
-                                    faucibus interdum posuere lorem. Ut diam quam nulla porttitor massa id neque aliquam vestibulum. Mattis
-                                    rhoncus urna neque viverra justo nec ultrices dui sapien. Ut diam quam nulla porttitor massa id neque
-                                    aliquam vestibulum. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien
+                                    L'ingénieur structures met au point l'ossature d'une construction et s'assure de sa stabilité. Grâce à de savants calculs sur ordinateur, ce spécialiste en matériaux (béton, charpentes métalliques, bois, etc.) participe à l'avant-projet de la construction. À partir des plans de l'architecte, et avant le chiffrage du chantier, il prend en compte tous les facteurs (qualité du sol, dimensions, performances techniques des matériaux, risques de séisme ou conditions climatiques...) pour définir la taille des différents éléments de la structure du bâtiment et la quantité de matériaux à utiliser. Puis il réalise, sur ordinateur, des simulations de résistance, de déformation et d'élasticité pour tester ses hypothèses. Il réalise aussi le plan de coffrage, indiquant l'emplacement des murs, et le plan d'armature, qui représente les éléments porteurs du bâtiment. Il travaille en équipe avec des dessinateurs-projeteurs. Ce professionnel, indispensable dans la construction, est recherché par les employeurs.
                                 </p>
                             </div>
                         </div>
@@ -835,7 +793,7 @@
                                 aria-expanded="false"
                                 aria-controls="collapseThree"
                             >
-                                <span class="question">Where is Company Located?</span>
+                                <span class="question">Où se trouve l'entreprise ?</span>
                                 <span class="faq_accordion-trigger_icon accordion-trigger_icon icon-plus"></span>
                             </button>
                             <div id="collapseThree" class="faq_accordion-content accordion-content collapse">
@@ -854,7 +812,7 @@
                                 aria-expanded="false"
                                 aria-controls="collapseFour"
                             >
-                                <span class="question">How Long Does It Take to Build a House?</span>
+                                <span class="question">Combien de temps faut-il pour construire une maison ?</span>
                                 <span class="faq_accordion-trigger_icon accordion-trigger_icon icon-plus"></span>
                             </button>
                             <div id="collapseFour" class="faq_accordion-content accordion-content collapse">
