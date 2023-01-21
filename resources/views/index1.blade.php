@@ -10,17 +10,18 @@
         <main>
             <section class="hero primary-bg">
                 <picture>
-                    {{-- <source data-srcset="{{ asset('assets/img/8.jpeg') }}" srcset="{{ asset('assets/img/8.jpeg') }}" type="image/webp" data-role="deco" /> --}}
+                    <source data-srcset="{{ asset('assets/img/8.jpeg') }}" srcset="{{ asset('assets/img/8.jpeg') }}" type="image/webp" data-role="deco" />
                     <img class="plan lazy" data-src="{{ asset('assets/img/8.jpeg') }}" src="{{ asset('assets/img/8.jpeg') }}" alt="media" data-role="deco" />
                 </picture>
                 <div class="container hero_container d-md-flex flex-wrap justify-content-between">
                     <picture>
                         <source
-                            {{-- data-srcset="{{ asset('assets/img/8.jpeg') }}" --}}
+                            data-srcset="{{ asset('assets/img/8.jpeg') }}"
                             srcset="{{ asset('assets/img/8.jpeg') }}"
                             type="image/webp"
                             data-role="deco"
-                            width=50%
+                            width=57%
+                            height=100%
 
                         />
                         <img
@@ -30,16 +31,18 @@
                             alt="media"
                             data-role="deco"
                             width=57%
+                            height=100%
                         />
                     </picture>
+
+                    {{-- <video src="{{ asset('assets/img/14.mp4') }}"></video> --}}
                     <div class="hero_header section_header col-md-7 col-xl-auto">
-                        <span class="subtitle subtitle--extended"> Professional. Innovative. Reliable. </span>
-                        <h1 class="title">Exceptionals Service Exceeding Expectations</h1>
+                        <span class="subtitle subtitle--extended"> Professionnel. Innovant. Fiable.</span>
+                        <h1 class="title">Service exceptionnel dépassant les attentes</h1>
                         <p class="text">
-                            Our civil and structural team is committed to providing sustainable, creative & efficient engineering solutions
-                            for our communities
+                            Notre équipe civile et structurelle s'engage à fournir des solutions d'ingénierie durables, créatives et efficaces pour nos communautés
                         </p>
-                        <a class="btn" href="#">Consult now</a>
+                        <a class="btn" href="contact">Nous contactez</a>
                     </div>
                     <div class="hero_info d-flex flex-column col-md-5 col-xl-auto align-items-md-end">
                         <div
@@ -83,16 +86,9 @@
                         <div class="hero_info-card" data-wow-delay="100" data-wow-duration="600">
                             <span class="hero_info-card_underlay"></span>
                             <div class="wrapper">
-                                <h3 class="title">Maison résidentielle</h3>
-                                <h2 class="countNum number square highlight d-flex align-items-center" data-value="78000" data-suffix="+" >
-                                    <span class="square highlight d-flex align-items-center">м <sup>2</sup></span>
-                                </h2>
-                                <span class="square highlight d-flex align-items-center">м <sup>2</sup></span>
-                                {{-- <span class="info">Amount work done</span>
-                                <a class="link link-arrow" href="#">
-                                    Details
-                                    <i class="icon-arrow_right"></i>
-                                </a> --}}
+                                <h3 class="title">Maison d'habitation </h3>
+                                <span class="square highlight d-flex align-items-center ">78 000 м <sup>2</sup></span>
+
                             </div>
                             <picture>
                                 <source
@@ -628,20 +624,13 @@
                         </div>
                         <a class="btn team_btn" href="team.html">Our team</a>
                     </div>
+
                     <div class="row g-0">
-                        <div class="team_video col-12" data-aos="zoom-in" data-aos-duration="600" data-aos-once="true">
-                            <picture>
-                                <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" />
-                                <img
-                                    class="team_video-thumb lazy"
-                                    data-src="img/placeholder.jpg"
-                                    src="img/placeholder.jpg"
-                                    alt="thumbnail"
-                                />
-                            </picture>
-                            <a class="btn-play d-inline-flex align-items-center justify-content-center" href="#">
-                                <i class="icon-play"></i>
-                            </a>
+                        <div class="team_video col-12" width="100%" data-aos="zoom-in" data-aos-duration="600" data-aos-once="true">
+
+                            <video autoplay  muted class="col-12">
+                                <source src="{{ asset('assets/img/14.mp4') }}">
+                            </video>
                         </div>
                         <div class="team_main col-12 col-lg-6">
                             <p class="team_main-text" data-aos="fade-right" data-aos-duration="300">
@@ -669,6 +658,7 @@
                                 </li>
                             </ul>
                         </div>
+
                         <div class="team_quote col-12 col-lg-6" data-aos="fade-left" data-aos-duration="300">
                             <div class="team_quote-wrapper">
                                 <q class="team_quote-quote">

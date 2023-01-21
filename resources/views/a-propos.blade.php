@@ -34,33 +34,40 @@
                     <div class="hero_header section_header col-xl-auto">
                         <span class="subtitle" data-aos="fade-down">Qui sommes-nous ?</span>
                         <h2 class="title" data-aos="fade-right">
-                            Bringing
-                            <span class="highlight">Your Ideas</span>
-                            and Innovations to Life
+                            Donner
+                            <span class="highlight">vie</span>
+                            à vos idées et à vos innovations
                         </h2>
                         <p class="text" data-aos="fade-up" data-aos-delay="20">
-                            Our civil and structural team is committed to providing sustainable, creative & efficient engineering solutions
-                            for our communities
+                            la société a pour objet au Maroc et a l’étranger tant pour son compte que le compte des tiers :
                         </p>
                         <ul class="hero_header-list">
                             <li class="hero_header-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="30">
                                 <i class="icon-arrow_right icon"></i>
-                                Making lives easier
+                                Etude et réalisation de projet
                             </li>
                             <li class="hero_header-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="30">
                                 <i class="icon-arrow_right icon"></i>
-                                Get every solution right here
+                                Construction et rénovation
                             </li>
                             <li class="hero_header-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="40">
                                 <i class="icon-arrow_right icon"></i>
-                                Innovation and creativity
+                                Electricité - Plomberie - Assainissement
                             </li>
                             <li class="hero_header-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="40">
                                 <i class="icon-arrow_right icon"></i>
-                                Fine engineering only with us
+                                Vente de matériel de construction
+                            </li>
+                            <li class="hero_header-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="40">
+                                <i class="icon-arrow_right icon"></i>
+                                Peinture
+                            </li>
+                            <li class="hero_header-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="40">
+                                <i class="icon-arrow_right icon"></i>
+                                Tous activités de gros oeuvres et second oeuvre
                             </li>
                         </ul>
-                        <a class="btn" href="#" data-aos="fade-up">Consult now</a>
+                        <a class="btn" data-aos="fade-up">Et plus généralement toutes opérations industrielles, commerciales, financieres, mobilieres ou immobilieres pouvant se rattacher directement ou indirectement aux objets ci-dessus.</a>
                     </div>
                     <div class="hero_img" data-aos="zoom-in" data-aos-duration="700">
                         <picture>
@@ -106,263 +113,253 @@
                             />
                         </svg>
 
-                        <span class="subtitle">Who we are</span>
-                        <h2 class="title">
-                            Pulvinar elementum integer enim neque volutpat ac. Amet dictum sit amet justo donec enim diam vulputate ut.
-                            Egestas sed sed risus pretium quam. Viverra accumsan in nisl nisi scelerisque eu
+                        <span class="subtitle">Une entreprise citoyenne</span>
+                        <h2 class="subtitle">
+                            Afin de garantir des conditions optimales de travail et de vie en communauté à l’ensemble de ses collaborateurs, Djolof-BTP met en place une politique sociale, tant sur un plan humain que sur un plan environnemental.</br>
+                            • Valorisation des ressources humaines : partout où nous intervenons, nous favorisons le recrutement local. Convaincu que nous devons, à notre échelle, participer à l’amélioration des compétences des populations locales, nous avons mis en place un système de tutorat pour toute nouvelle recrue. Former, accompagner, faire évoluer les hommes et les femmes, est un axe prioritaire chez Djolof-BTP.</br>
+                            • Management de l’Hygiène, Sécurité et Environnement (HSE) : Nous nous donnons l’objectif du « zéro accident sur les chantiers de Djolof-BTP » en nommant un responsable HSE, Fourniture d’EPI (Equipement de Protection Individuelle), Formation des collaborateurs aux ports des EPI, aux bons usages des engins et aux bonnes pratiques de sécurité sur un chantier (livret d’accueil obligatoire).
+                            Djolof-BTP est une société de droits Sénégalais et sa présence ici est pérenne ; elle est inscrite dans le temps.
                         </h2>
-                        <span class="author">Benjamin Miller</span>
                     </div>
                 </div>
             </section>
             <section class="services section">
                 <div class="container">
                     <div class="services_header section_header">
-                        <span class="subtitle">Just feel the future</span>
+                        <span class="subtitle">Sentez le futur</span>
                         <h2 class="title">
-                            Spotlight
-                            <span class="highlight">Services</span>
+                            Services
+                            <span class="highlight">Spotlight</span>
                         </h2>
                     </div>
                     <ul class="services_slider">
                         <li class="services_slider-slide d-flex flex-wrap align-items-start align-items-xl-center">
-                            <div class="img-wrapper col-md-5">
+                            <div class="img-wrapper col-md-5" data-aos="fade-up" data-aos-delay="50">
                                 <picture>
                                     <source
-                                        data-srcset="img/placeholder.jpg"
-                                        srcset="img/placeholder.jpg"
+                                        data-srcset="{{ asset('assets/img/etudeetrealisation.webp') }}"
+                                        srcset="{{ asset('assets/img/etudeetrealisation.webp') }}"
                                         type="image/webp"
                                     />
                                     <img
                                         class="lazy"
                                         data-src="img/placeholder.jpg"
                                         src="img/placeholder.jpg"
-                                        alt="Process Engineering"
+                                        alt="Etude et réalisation de projet "
                                     />
                                 </picture>
                             </div>
                             <div class="text-wrapper col-md-6">
-                                <h3 class="title">Process Engineering</h3>
+                                <h3 class="title primary-bg">Etude et réalisation de projet </h3>
                                 <p class="text">
-                                    Vitae ultricies leo integer malesuada nunc vel. Molestie ac feugiat sed lectus vestibulum mattis
-                                    ullamcorper velit. Viverra aliquet eget sit amet tellus cras adipiscing. Molestie ac feugiat sed lectus
-                                    vestibulum mattis ullamcorper velit
+                                    Tous les projets sont des réalisations uniques. Lorsque vous créez un projet nouveau et d’une très grande envergure, vous pouvez vous organiser en plusieurs phases afin de garantir une meilleure fiabilité de réalisation. L’ensemble de ces phases constitue le cycle de vie d’un projet .
+                                    Il peut être découpé en quatre paliers :
                                 </p>
                                 <ul class="list">
                                     <li class="hero_header-list_item d-flex align-items-center">
                                         <i class="icon-arrow_right icon"></i>
-                                        Making lives easier
+                                        Cadrage (comprenant l'étude de faisabilité)
                                     </li>
                                     <li class="hero_header-list_item d-flex align-items-center">
                                         <i class="icon-arrow_right icon"></i>
-                                        Get every solution right here
+                                        Conception et planification
                                     </li>
                                     <li class="hero_header-list_item d-flex align-items-center">
                                         <i class="icon-arrow_right icon"></i>
-                                        Innovation and creativity
+                                        Réalisation du projet
+                                    </li>
+                                    <li class="hero_header-list_item d-flex align-items-center">
+                                        <i class="icon-arrow_right icon"></i>
+                                        Clôture
                                     </li>
                                 </ul>
-                                <a class="btn" href="#">Read more</a>
                             </div>
                         </li>
                         <li class="services_slider-slide d-flex flex-wrap align-items-start align-items-xl-center">
-                            <div class="img-wrapper col-md-5">
+                            <div class="img-wrapper col-md-5" data-aos="fade-up" data-aos-delay="50">
                                 <picture>
                                     <source
-                                        data-srcset="img/placeholder.jpg"
-                                        srcset="img/placeholder.jpg"
+                                        data-srcset="{{ asset('assets/img/Construction-et-rénovation.jpg') }}"
+                                        srcset="{{ asset('assets/img/Construction-et-rénovation.jpg') }}"
                                         type="image/webp"
                                     />
                                     <img
                                         class="lazy"
-                                        data-src="img/placeholder.jpg"
-                                        src="img/placeholder.jpg"
-                                        alt="Chemistry and Metallurgy"
+                                        data-src="{{ asset('assets/img/Construction-et-rénovation.jpg') }}"
+                                        src="{{ asset('assets/Construction-et-rénovation.jpg.jpg') }}"
+                                        alt="Construction et rénovation.jpg"
                                     />
                                 </picture>
                             </div>
+
                             <div class="text-wrapper col-md-6">
-                                <h3 class="title">Chemistry and Metallurgy</h3>
+                                <h3 class="title primary-bg">Construction & Rénovation</h3>
                                 <p class="text">
-                                    Vitae ultricies leo integer malesuada nunc vel. Molestie ac feugiat sed lectus vestibulum mattis
-                                    ullamcorper velit. Viverra aliquet eget sit amet tellus cras adipiscing. Molestie ac feugiat sed lectus
-                                    vestibulum mattis ullamcorper velit
+                                    Chez Djolof-BTP, c’est non seulement concevoir et construire la maison de vos rêves, mais aussi vous assurer que la réalisation de votre rêve est simple et agréable. Nous sommes une entreprise qui offre un service complet de la conception et la construction au bénéfice d’un large éventail d’expériences. Nous pouvons vous aider dans toutes les étapes de la construction d’une maison neuve ou d’une rénovation: trouver ou se procurer des terres, prendre soin de l’architecture et de la conception, la construction de votre maison et le paysage adjacent.
+                                    Notre excellente réputation et une longue liste de clients satisfaits démontrent notre niveau et sont une marque de qualité grâce à une communication claire, honnête et intègre.
+                                    Parlez-nous de vos idées! La consultation est libre. Un simple appel téléphonique suffit.
                                 </p>
                                 <ul class="list">
                                     <li class="hero_header-list_item d-flex align-items-center">
                                         <i class="icon-arrow_right icon"></i>
-                                        Making lives easier
+                                        Construction de maisons
                                     </li>
                                     <li class="hero_header-list_item d-flex align-items-center">
                                         <i class="icon-arrow_right icon"></i>
-                                        Get every solution right here
+                                        Construction de garages
                                     </li>
                                     <li class="hero_header-list_item d-flex align-items-center">
                                         <i class="icon-arrow_right icon"></i>
-                                        Innovation and creativity
+                                        Rénovation de maisons
+                                    </li>
+                                    <li class="hero_header-list_item d-flex align-items-center">
+                                        <i class="icon-arrow_right icon"></i>
+                                        Rénovation de cuisines
+                                    </li>
+                                    <li class="hero_header-list_item d-flex align-items-center">
+                                        <i class="icon-arrow_right icon"></i>
+                                        Rénovation de toitures
                                     </li>
                                 </ul>
-                                <a class="btn" href="#">Read more</a>
                             </div>
                         </li>
                         <li class="services_slider-slide d-flex flex-wrap align-items-start align-items-xl-center">
-                            <div class="img-wrapper col-md-5">
+                            <div class="img-wrapper col-md-5" data-aos="fade-up" data-aos-delay="200>
                                 <picture>
                                     <source
-                                        data-srcset="img/placeholder.jpg"
-                                        srcset="img/placeholder.jpg"
+                                        data-srcset="{{ asset('assets/img/Electricite.jpeg') }}"
+                                        srcset="{{ asset('assets/img/Electricite.jpeg') }}"
                                         type="image/webp"
                                     />
                                     <img
                                         class="lazy"
-                                        data-src="img/placeholder.jpg"
-                                        src="img/placeholder.jpg"
-                                        alt="Electrical Engineering"
+                                        data-src="{{ asset('assets/img/Electricite.jpeg') }}"
+                                        src="{{ asset('assets/img/Electricite.jpeg') }}"
+                                        alt="Electricité - Plomberie - Assainissement"
                                     />
                                 </picture>
                             </div>
                             <div class="text-wrapper col-md-6">
-                                <h3 class="title">Electrical Engineering</h3>
+                                <h3 class="title primary-bg">Electricité - Plomberie - Assainissement </h3>
                                 <p class="text">
-                                    Vitae ultricies leo integer malesuada nunc vel. Molestie ac feugiat sed lectus vestibulum mattis
-                                    ullamcorper velit. Viverra aliquet eget sit amet tellus cras adipiscing. Molestie ac feugiat sed lectus
-                                    vestibulum mattis ullamcorper velit
+                                    L'électricité est l'ensemble des techniques et des technologies utilisées pour produire, transporter et distribuer de l'énergie électrique. Il est important de respecter les normes électriques pour assurer la sécurité des personnes et des biens.</br>
+                                    Il est important de respecter les normes de plomberie pour assurer la sécurité sanitaire et éviter les fuites d'eau. Nous vous proposons des techniques en plomberie moderne pour installer, entretenir et réparer les systèmes de distribution d'eau potable et d'évacuation des eaux usées.</br>
+                                    Avoir une bonne assainissement  permet d'éliminer les déchets et les eaux usées de manière saine et écologique. Il est important de respecter les normes d'assainissement pour protéger la santé des personnes et de l'environnement.
                                 </p>
                                 <ul class="list">
                                     <li class="hero_header-list_item d-flex align-items-center">
                                         <i class="icon-arrow_right icon"></i>
-                                        Making lives easier
+                                        Installation et dépannage électrique
                                     </li>
                                     <li class="hero_header-list_item d-flex align-items-center">
                                         <i class="icon-arrow_right icon"></i>
-                                        Get every solution right here
+                                        Installation plomberie et Equipement
                                     </li>
                                     <li class="hero_header-list_item d-flex align-items-center">
                                         <i class="icon-arrow_right icon"></i>
-                                        Innovation and creativity
+                                         Installations sanitaires et autres
                                     </li>
                                 </ul>
-                                <a class="btn" href="#">Read more</a>
+                                {{-- <a class="btn" href="#">Read more</a> --}}
                             </div>
                         </li>
                         <li class="services_slider-slide d-flex flex-wrap align-items-start align-items-xl-center">
-                            <div class="img-wrapper col-md-5">
+                            <div class="img-wrapper col-md-5" data-aos="fade-up" data-aos-delay="200>
                                 <picture>
                                     <source
-                                        data-srcset="img/placeholder.jpg"
-                                        srcset="img/placeholder.jpg"
+                                        data-srcset="{{ asset('assets/img/Vente-de-matériel-de-construction.jpeg') }}"
+                                        srcset="{{ asset('assets/img/Vente-de-matériel-de-construction.jpeg') }}"
                                         type="image/webp"
                                     />
                                     <img
                                         class="lazy"
-                                        data-src="img/placeholder.jpg"
-                                        src="img/placeholder.jpg"
-                                        alt="Specialty Services"
+                                        data-src="{{ asset('assets/img/Vente-de-matériel-de-construction.jpeg') }}"
+                                        src="{{ asset('assets/img/Vente-de-matériel-de-construction.jpeg') }}"
+                                        alt="Vente-de-matériel-de-construction"
                                     />
                                 </picture>
                             </div>
                             <div class="text-wrapper col-md-6">
-                                <h3 class="title">Specialty Services</h3>
+                                <h3 class="title primary-bg">Vente de matériel de construction </h3>
                                 <p class="text">
-                                    Vitae ultricies leo integer malesuada nunc vel. Molestie ac feugiat sed lectus vestibulum mattis
-                                    ullamcorper velit. Viverra aliquet eget sit amet tellus cras adipiscing. Molestie ac feugiat sed lectus
-                                    vestibulum mattis ullamcorper velit
+                                    En achetant chez nous, vous bénéficiez également de nos offres spéciales et de nos garanties sur les produits. Nous proposons des prix compétitifs et nous nous engageons à vous livrer votre commande dans les délais les plus brefs.
+                                    N'hésitez pas à nous contacter pour toute demande de renseignements ou pour passer votre commande. Nous sommes à votre disposition pour vous accompagner dans la réalisation de vos projets.
                                 </p>
                                 <ul class="list">
                                     <li class="hero_header-list_item d-flex align-items-center">
                                         <i class="icon-arrow_right icon"></i>
-                                        Making lives easier
+                                        Gagnez du temps et de l'argent
                                     </li>
                                     <li class="hero_header-list_item d-flex align-items-center">
                                         <i class="icon-arrow_right icon"></i>
-                                        Get every solution right here
-                                    </li>
-                                    <li class="hero_header-list_item d-flex align-items-center">
-                                        <i class="icon-arrow_right icon"></i>
-                                        Innovation and creativity
+                                        Une large gamme de produit proposé
                                     </li>
                                 </ul>
-                                <a class="btn" href="#">Read more</a>
                             </div>
                         </li>
                         <li class="services_slider-slide d-flex flex-wrap align-items-start align-items-xl-center">
-                            <div class="img-wrapper col-md-5">
+                            <div class="img-wrapper col-md-5" data-aos="fade-up" data-aos-delay="200>
                                 <picture>
                                     <source
-                                        data-srcset="img/placeholder.jpg"
-                                        srcset="img/placeholder.jpg"
+                                        data-srcset="{{ asset('assets/img/Peinture.jpeg') }}"
+                                        srcset="{{ asset('assets/img/Peinture.jpeg') }}"
                                         type="image/webp"
                                     />
                                     <img
                                         class="lazy"
-                                        data-src="img/placeholder.jpg"
-                                        src="img/placeholder.jpg"
-                                        alt="Civil engineering"
+                                        data-src="{{ asset('assets/img/Peinture.jpeg') }}"
+                                        src="{{ asset('assets/img/Peinture.jpeg') }}"
+                                        alt="Peinture"
                                     />
                                 </picture>
                             </div>
                             <div class="text-wrapper col-md-6">
-                                <h3 class="title">Civil engineering</h3>
-                                <p class="text">
-                                    Vitae ultricies leo integer malesuada nunc vel. Molestie ac feugiat sed lectus vestibulum mattis
-                                    ullamcorper velit. Viverra aliquet eget sit amet tellus cras adipiscing. Molestie ac feugiat sed lectus
-                                    vestibulum mattis ullamcorper velit
+                                <h3 class="title primary-bg">Peinture</h3>
+                                <p class="text ">
+                                    On vous l’accorde, faire le choix d’une couleur de peinture pour les pièces de la maison n’est pas toujours aisé. C’est un choix qui s’avère encore plus difficile à faire lorsque l’on est très sensible à l’esthétique. L’immensité des couleurs disponibles sur le marché ne contribue pas non plus à faciliter une sélection de la teinte la plus adaptée pour décorer sa résidence.</br>
+                                    Comment procéder alors pour trouver la couleur parfaite pour le salon, la cuisine, la chambre à coucher ? Quelle technique utiliser pour ne pas finir déçu du choix de la peinture ?</br>
+                                    Chez Djolof-BTP nous vous fournissons quelques astuces utiles pour trouver la meilleure couleur de peinture pour votre maison.
                                 </p>
                                 <ul class="list">
                                     <li class="hero_header-list_item d-flex align-items-center">
                                         <i class="icon-arrow_right icon"></i>
-                                        Making lives easier
-                                    </li>
-                                    <li class="hero_header-list_item d-flex align-items-center">
-                                        <i class="icon-arrow_right icon"></i>
-                                        Get every solution right here
-                                    </li>
-                                    <li class="hero_header-list_item d-flex align-items-center">
-                                        <i class="icon-arrow_right icon"></i>
-                                        Innovation and creativity
+                                        La peinture, un large choix de possibilités pour une déco unique
                                     </li>
                                 </ul>
-                                <a class="btn" href="#">Read more</a>
                             </div>
                         </li>
                         <li class="services_slider-slide d-flex flex-wrap align-items-start align-items-xl-center">
-                            <div class="img-wrapper col-md-5">
+                            <div class="img-wrapper col-md-5 "  data-aos="fade-up" data-aos-delay="200">
                                 <picture>
                                     <source
-                                        data-srcset="img/placeholder.jpg"
-                                        srcset="img/placeholder.jpg"
+                                        data-srcset="{{ asset('assets/img/grosoeuvres.jpeg') }}"
+                                        srcset="{{ asset('assets/img/grosoeuvres.jpeg') }}"
                                         type="image/webp"
                                     />
                                     <img
                                         class="lazy"
-                                        data-src="img/placeholder.jpg"
-                                        src="img/placeholder.jpg"
-                                        alt="Construction Management"
+                                        data-src="{{ asset('assets/img/grosoeuvres.jpeg') }}"
+                                        src="{{ asset('assets/img/grosoeuvres.jpeg') }}"
+                                        alt="grosoeuvres"
                                     />
                                 </picture>
                             </div>
                             <div class="text-wrapper col-md-6">
-                                <h3 class="title">Construction Management</h3>
+                                <h3 class="title primary-bg">Tous activités de gros oeuvres et second oeuvre </h3>
                                 <p class="text">
-                                    Vitae ultricies leo integer malesuada nunc vel. Molestie ac feugiat sed lectus vestibulum mattis
-                                    ullamcorper velit. Viverra aliquet eget sit amet tellus cras adipiscing. Molestie ac feugiat sed lectus
-                                    vestibulum mattis ullamcorper velit
+                                    Lors de travaux de construction et de rénovation d’un bâtiment, on note deux étapes distinctes : le gros œuvre, et le second œuvre.</br>
+                                    Le gros œuvre se concentre sur les éléments structurels du bâtiment pour le mettre hors d’eau et hors d’air,</br> alors que le second œuvre le rend habitable et décorable.
                                 </p>
                                 <ul class="list">
                                     <li class="hero_header-list_item d-flex align-items-center">
                                         <i class="icon-arrow_right icon"></i>
-                                        Making lives easier
+                                        Le gros œuvre pour la stabilité et la solidité du bâtiment.
                                     </li>
                                     <li class="hero_header-list_item d-flex align-items-center">
                                         <i class="icon-arrow_right icon"></i>
-                                        Get every solution right here
-                                    </li>
-                                    <li class="hero_header-list_item d-flex align-items-center">
-                                        <i class="icon-arrow_right icon"></i>
-                                        Innovation and creativity
+                                        Le second œuvre pour la finition.
                                     </li>
                                 </ul>
-                                <a class="btn" href="#">Read more</a>
                             </div>
                         </li>
                     </ul>
@@ -374,29 +371,29 @@
                         <li class="gallery_list-item col-12 col-sm-6 col-xl-3">
                             <a
                                 class="gallery_list-item_trigger"
-                                href="img/placeholder.jpg"
-                                data-caption="Fresh Concept Construction Renovation"
+                                href="{{ asset('assets/img/istockphoto-1283532082-612x612.jpg') }}"
+                                data-caption="Architecture Moderne"
                                 data-role="gallery-link"
                             >
                                 <div class="img-wrapper">
                                     <picture>
                                         <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
-                                            type="image/webp"
+                                            data-srcset="{{ asset('assets/img/istockphoto-1283532082-612x612.jpg') }}"
+                                            srcset="{{ asset('assets/img/istockphoto-1283532082-612x612.jpg') }}"
+                                            type="image/png"
                                         />
                                         <img
                                             class="lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
+                                            data-src="{{ asset('assets/img/istockphoto-1283532082-612x612.jpg') }}"
+                                            src="{{ asset('assets/img/istockphoto-1283532082-612x612.jpg') }}"
                                             alt="Fresh Concept Construction Renovation"
                                         />
                                     </picture>
                                 </div>
                                 <div class="text-wrapper d-flex flex-column justify-content-end">
-                                    <span class="subtitle">Our gallery</span>
-                                    <h4 class="title">Fresh Concept Construction Renovation</h4>
-                                    <span class="label">Special Projects</span>
+                                    <span class="subtitle">Notre galerie</span>
+                                    <h4 class="title">Architecture Moderne</h4>
+                                    <span class="label">Projets spéciaux</span>
                                 </div>
                             </a>
                         </li>
@@ -404,29 +401,29 @@
                         <li class="gallery_list-item col-12 col-sm-6 col-xl-3">
                             <a
                                 class="gallery_list-item_trigger"
-                                href="img/placeholder.jpg"
-                                data-caption="Fresh Concept Construction Renovation"
+                                href="{{ asset('assets/img/maison-l-plan.png') }}"
+                                data-caption="Modélisation"
                                 data-role="gallery-link"
                             >
                                 <div class="img-wrapper">
                                     <picture>
                                         <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
+                                            data-srcset="{{ asset('assets/img/maison-l-plan.png') }}"
+                                            srcset="{{ asset('assets/img/maison-l-plan.png') }}"
                                             type="image/webp"
                                         />
                                         <img
                                             class="lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
+                                            data-src="{{ asset('assets/img/maison-l-plan.png') }}"
+                                            src="{{ asset('assets/img/maison-l-plan.png') }}"
                                             alt="Fresh Concept Construction Renovation"
                                         />
                                     </picture>
                                 </div>
                                 <div class="text-wrapper d-flex flex-column justify-content-end">
-                                    <span class="subtitle">Our gallery</span>
-                                    <h4 class="title">Fresh Concept Construction Renovation</h4>
-                                    <span class="label">Special Projects</span>
+                                    <span class="subtitle">Notre galerie</span>
+                                    <h4 class="title">Rénovation de la construction de Fresh Concept</h4>
+                                    <span class="label">Modélisation</span>
                                 </div>
                             </a>
                         </li>
@@ -434,29 +431,29 @@
                         <li class="gallery_list-item col-12 col-sm-6 col-xl-3">
                             <a
                                 class="gallery_list-item_trigger"
-                                href="img/placeholder.jpg"
-                                data-caption="Fresh Concept Construction Renovation"
+                                href="{{ asset('assets/img/marrakech-ville-maroc-maison-arabe-architecture-détail.webp') }}"
+                                data-caption="Architecture Arabe"
                                 data-role="gallery-link"
                             >
                                 <div class="img-wrapper">
                                     <picture>
                                         <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
+                                            data-srcset="{{ asset('assets/img/marrakech-ville-maroc-maison-arabe-architecture-détail.webp') }}"
+                                            srcset="{{ asset('assets/img/marrakech-ville-maroc-maison-arabe-architecture-détail.webp') }}"
                                             type="image/webp"
                                         />
                                         <img
                                             class="lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
+                                            data-src="{{ asset('assets/img/marrakech-ville-maroc-maison-arabe-architecture-détail.webp') }}"
+                                            src="{{ asset('assets/img/marrakech-ville-maroc-maison-arabe-architecture-détail.webp') }}"
                                             alt="Fresh Concept Construction Renovation"
                                         />
                                     </picture>
                                 </div>
                                 <div class="text-wrapper d-flex flex-column justify-content-end">
-                                    <span class="subtitle">Our gallery</span>
-                                    <h4 class="title">Fresh Concept Construction Renovation</h4>
-                                    <span class="label">Special Projects</span>
+                                    <span class="subtitle">Notre galerie</span>
+                                    <h4 class="title">Architecture Arabe</h4>
+                                    <span class="label">Projet Marocain</span>
                                 </div>
                             </a>
                         </li>
@@ -464,32 +461,33 @@
                         <li class="gallery_list-item col-12 col-sm-6 col-xl-3">
                             <a
                                 class="gallery_list-item_trigger"
-                                href="img/placeholder.jpg"
-                                data-caption="Fresh Concept Construction Renovation"
+                                href="{{ asset('assets/img/modele-maison-baobab3d.jpg') }}"
+                                data-caption="Architecture Moderne"
                                 data-role="gallery-link"
                             >
                                 <div class="img-wrapper">
                                     <picture>
                                         <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
+                                            data-srcset="{{ asset('assets/img/modele-maison-baobab3d.jpg') }}"
+                                            srcset="{{ asset('assets/img/modele-maison-baobab3d.jpg') }}"
                                             type="image/webp"
                                         />
                                         <img
                                             class="lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
+                                            data-src="{{ asset('assets/img/modele-maison-baobab3d.jpg') }}"
+                                            src="{{ asset('assets/img/modele-maison-baobab3d.jpg') }}"
                                             alt="Fresh Concept Construction Renovation"
                                         />
                                     </picture>
                                 </div>
                                 <div class="text-wrapper d-flex flex-column justify-content-end">
-                                    <span class="subtitle">Our gallery</span>
-                                    <h4 class="title">Fresh Concept Construction Renovation</h4>
-                                    <span class="label">Special Projects</span>
+                                    <span class="subtitle">Notre galerie</span>
+                                    <h4 class="title">Architecture Moderne</h4>
+                                    <span class="label">Architecture Moderne</span>
                                 </div>
                             </a>
                         </li>
+
                     </ul>
                 </div>
             </section>
@@ -994,111 +992,4 @@
             </section>
         </main>
         <!-- ABOUT CONTENT END  -->
-        <footer class="footer primary-bg">
-            <div class="container">
-                <div class="footer_main d-flex flex-wrap justify-content-md-between col-12">
-                    <div class="footer_main-block col-sm-12 col-xl-auto">
-                        <a class="brand d-inline-flex align-items-center justify-content-center" href="index.html">
-                            <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0 0V12L7.00543 6.48334L0 0Z" fill="#FFC631" />
-                                <path d="M0 31L7.00543 24.5151L0 19V31Z" fill="#FFC631" />
-                                <path d="M12.8208 14.3662L30.0233 0H19.9966L0 16L12.8208 14.3662Z" fill="#0DA574" />
-                                <path d="M0 16L19.9966 31H30.0233L12.8208 17.5239L0 16Z" fill="#0DA574" />
-                            </svg>
-
-                            Axial <span class="highlight">Construct</span>
-                        </a>
-                        <p class="footer_main-block_subtitle footer_main-block_subtitle--brand">
-                            Libero volutpat sed cras ornare arcu dui vivamus. Ac tortor dignissim convallis aenean et tortor at risus
-                            viverra
-                        </p>
-                    </div>
-                    <div class="footer_main-block col-12 col-sm-6 col-md-auto">
-                        <h4 class="footer_main-block_title">Contacts</h4>
-                        <div class="group-wrapper d-flex justify-content-center">
-                            <i class="icon-call icon"></i>
-                            <div class="group d-flex flex-column">
-                                <a href="tel:+13136453395">1 - 313 - 645 - 3395</a>
-                                <a href="tel:+14699702609">1 - 469 - 970 - 2609</a>
-                            </div>
-                        </div>
-                        <div class="group-wrapper d-flex justify-content-center">
-                            <i class="icon-location icon"></i>
-                            <div class="group d-flex flex-column">
-                                <span>2047 Cyrus Viaduct</span>
-                                <span>East Jadynchester</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer_main-block col-12 col-sm-6 col-md-auto">
-                        <h4 class="footer_main-block_title">Company</h4>
-                        <ul class="footer_main-block_nav">
-                            <li class="list-item">
-                                <a class="link d-inline-flex align-items-center" href="about.html"> About </a>
-                            </li>
-                            <li class="list-item">
-                                <a class="link d-inline-flex align-items-center" href="services.html"> Services </a>
-                            </li>
-                            <li class="list-item">
-                                <a class="link d-inline-flex align-items-center" href="projects.html"> Projects </a>
-                            </li>
-                            <li class="list-item">
-                                <a class="link d-inline-flex align-items-center" href="blog.html"> Blog </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer_main-block col-12 col-md-auto">
-                        <h4 class="footer_main-block_title">Subscribe to Our News</h4>
-                        <p class="footer_main-block_subtitle footer_main-block_subtitle--newsletter">
-                            Find out about the last days and the latest promotions of our Corporation
-                        </p>
-                        <form
-                            class="footer_main-block_form d-flex flex-wrap flex-sm-nowrap"
-                            data-type="newsletter"
-                            action="#"
-                            method="POST"
-                            name="newsletterForm"
-                            id="newsletterForm"
-                        >
-                            <input
-                                class="field required"
-                                name="newsletterEmail"
-                                id="newsletterEmail"
-                                type="text"
-                                placeholder="Email"
-                                data-type="email"
-                            />
-                            <button class="btn btn--submit btn--static" type="submit">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="footer_secondary col-12 d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
-                    <p class="footer_secondary-copyright">
-                        <span>Merkulove &copy; Axial Construct Template</span>
-                        <span>All rights reserved Copyrights 2021</span>
-                    </p>
-                    <ul class="socials d-flex align-items-center justify-content-start socials--alt">
-                        <li class="socials_item">
-                            <a class="socials_item-link" href="#" target="_blank" rel="noopener noreferrer">
-                                <i class="icon-facebook"></i>
-                            </a>
-                        </li>
-                        <li class="socials_item">
-                            <a class="socials_item-link" href="#" target="_blank" rel="noopener noreferrer">
-                                <i class="icon-instagram"></i>
-                            </a>
-                        </li>
-                        <li class="socials_item">
-                            <a class="socials_item-link" href="#" target="_blank" rel="noopener noreferrer">
-                                <i class="icon-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="socials_item">
-                            <a class="socials_item-link" href="#" target="_blank" rel="noopener noreferrer">
-                                <i class="icon-whatsapp"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
         @include('footer')
