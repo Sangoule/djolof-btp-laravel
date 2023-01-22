@@ -2,7 +2,6 @@
         <link rel="stylesheet" href="{{ asset('assets/css/contacts2.min.css ')}}" />
     </head>
     <body>
-               {{-- @include('header') --}}
         <header class="header primary-bg" data-page="contacts2">
                     <div class="header_navbar">
                     <div class="container d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between">
@@ -22,11 +21,11 @@
             <div class="header_extension">
                 <div class="container">
                     <div class="section_header">
-                        <span class="subtitle subtitle--extended">Build relationships</span>
+                        <span class="subtitle subtitle--extended">Établir des relations</span>
                         <h1 class="title">Contacts</h1>
                         <ul class="breadcrumbs d-flex align-items-center">
                             <li class="breadcrumbs_item">
-                                <a href="index.html">Home</a>
+                                <a href="index.html">Accueil</a>
                             </li>
                             <li class="breadcrumbs_item breadcrumbs_item--current">
                                 <span>Contacts</span>
@@ -35,8 +34,8 @@
                     </div>
                 </div>
                 <picture>
-                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" data-role="deco" />
-                    <img class="lazy plan" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" data-role="deco" />
+                    <source data-srcset="{{ asset('assets/img/imgplancontact.avif') }}" srcset="{{ asset('assets/img/imgplancontact.avif') }}" type="image/webp" data-role="deco" />
+                    <img class="lazy plan" data-src="{{ asset('assets/img/imgplancontact.avif') }}" src="{{ asset('assets/img/imgplancontact.avif') }}" alt="media" data-role="deco" style="width: 827px;" />
                 </picture>
             </div>
         </header>
@@ -51,7 +50,8 @@
                                 N'hésitez pas à nous <span class="highlight">Contacter </span>
                             </h2>
                             <p class="text">
-Vous avez un projet de construction, d’acquisition d’une parcelle, un projet immobilier ; n’hésitez pas à nous contacter. Notre équipe de professionnel reste à votre disposition. Tel: +221 77.000.00.00 / +33.00.00.00.00                             </p>
+                                Vous avez un projet de construction, d’acquisition d’une parcelle, un projet immobilier ; n’hésitez pas à nous contacter. Notre équipe de professionnel reste à votre disposition. Tel: +221 77.000.00.00 / +33.00.00.00.00
+                            </p>
                         </div>
                         <form
                             action="#"
@@ -97,7 +97,7 @@ Vous avez un projet de construction, d’acquisition d’une parcelle, un projet
                         <ul class="contact_info contact-info">
                             <li class="contact-info_group">
                                 <span class="name">Address</span>
-                                <span class="content">2047 Cyrus Viaduct East Jadynchester</span>
+                                <span class="content"> HAY LAAYOUNE ANGLE RUE AIT YAFLMANE FIDA N:341 2EME ETAGE CASABLANCA </span>
                             </li>
                             <li class="contact-info_group">
                                 <span class="name">Email</span>

@@ -1,11 +1,11 @@
 @include('head')
 
+        {{-- <link rel="stylesheet" href="{{ asset('assets/css/index.min.css') }}" /> --}}
         <link rel="stylesheet" href="{{ asset('assets/css/about.min.css') }}" />
     </head>
     <body>
         <header class="header primary-bg" data-page="about">
             @include('header-navbar')
-
             <div class="header_extension">
                 <div class="container">
                     <div class="section_header">
@@ -22,8 +22,8 @@
                     </div>
                 </div>
                 <picture>
-                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" data-role="deco" />
-                    <img class="lazy plan" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" data-role="deco" />
+                    <source data-srcset="{{ asset('assets/img/implan.webp') }}" srcset="{{ asset('assets/img/implan.webp') }}" type="image/webp" data-role="deco" />
+                    <img class="plan lazy" data-src="{{ asset('assets/img/implan.webp') }}" src="{{ asset('assets/img/implan.webp') }}" alt="media" data-role="deco" style="width: 585px;" />
                 </picture>
             </div>
         </header>
@@ -83,6 +83,7 @@
                 </div>
             </section>
             <section class="quote primary-bg section">
+
                 <div class="container">
                     <div class="quote_header section_header">
                         <svg

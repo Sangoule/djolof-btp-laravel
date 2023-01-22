@@ -1,5 +1,5 @@
 <nav class="header_navbar-nav">
-        <ul class="header_navbar-nav_list breadcrumbs d-flex align-items-center">
+    <ul class="header_navbar-nav_list breadcrumbs d-flex align-items-center">
         <li class="list-item">
             <a class="link link--single " href="/" data-page="services">
                 Accueil
@@ -20,5 +20,5 @@
                 Contact
             </a>
         </li>
-     </ul>
+    </ul>
 </nav>

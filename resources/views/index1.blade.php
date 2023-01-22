@@ -37,7 +37,7 @@
 
                     {{-- <video src="{{ asset('assets/img/14.mp4') }}"></video> --}}
                     <div class="hero_header section_header col-md-7 col-xl-auto">
-                        <span class="subtitle subtitle--extended"> Professionnel. Innovant. Fiable.</span>
+                        <span class="subtitle subtitle--extended"> Professionnel---Innovant---Fiable</span>
                         <h1 class="title">Service exceptionnel dépassant les attentes</h1>
                         <p class="text">
                             Notre équipe civile et structurelle s'engage à fournir des solutions d'ingénierie durables, créatives et efficaces pour nos communautés
@@ -390,9 +390,7 @@
                                 </svg>
 
                                 <h3 class="features_card-title">Nous développons des projets uniques</h3>
-                                <p class="features_card-description">
-                                    Senectus et netus et malesuada. Nunc pulvinar sapien et ligula ullamcorper malesuada proin
-                                </p>
+
                             </div>
                         </div>
                         <div class="features_card col-12 col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="50" data-order="2">
@@ -420,9 +418,7 @@
                                 </svg>
 
                                 <h3 class="features_card-title">Nous attachons de l'importance à la commodité et à la fonctionnalité</h3>
-                                <p class="features_card-description">
-                                    Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies
-                                </p>
+
                             </div>
                         </div>
                         <div class="features_card col-12 col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="100" data-order="3">
@@ -502,9 +498,7 @@
                                 </svg>
 
                                 <h3 class="features_card-title">L'expérience nous permet de mettre en œuvre de nouvelles idées</h3>
-                                <p class="features_card-description">
-                                    Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Enim diam vulputate ut pharetra
-                                </p>
+
                             </div>
                         </div>
                         <div class="features_card col-12 col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="150" data-order="4">
@@ -562,9 +556,7 @@
                                 </svg>
 
                                 <h3 class="features_card-title">Nous proposons des technologies innovantes</h3>
-                                <p class="features_card-description">
-                                    Consectetur adipiscing elit pellentesque habitant. Arcu felis bibendum ut tristique
-                                </p>
+
                             </div>
                         </div>
                         <div class="features_card col-12 col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="200" data-order="5">
@@ -604,9 +596,7 @@
                                 </svg>
 
                                 <h3 class="features_card-title">Nous privilégions les relations à long terme</h3>
-                                <p class="features_card-description">
-                                    Purus in massa tempor nec feugiat. Euismod lacinia at quis risus sed vulputate odio
-                                </p>
+
                             </div>
                         </div>
                     </div>
@@ -634,68 +624,43 @@
                         </div>
                         <div class="team_main col-12 col-lg-6">
                             <p class="team_main-text" data-aos="fade-right" data-aos-duration="300">
-                                Leo in vitae turpis massa sed elementum tempus egestas sed. Sed sed risus pretium quam vulputate dignissim
-                                suspendisse in. Placerat orci nulla pellentesque dignissim enim. Tortor pretium viverra suspendisse potenti
-                                nullam augue. Vestibulum lorem sed risus ultricies tristique nulla. Erat velit scelerisque in dictum non
-                                consectetur
+                                Entreprise générale du bâtiment, nous mettons notre savoir-faire et son expertise pour vous accompagner tout au long de vos projets de construction. Nous vous garantissons un large panel de prestations de qualité et dans les délais contractuels. L’ensemble de nos services sur mesure et notre assistance technique s’attachent à répondre aux normes de construction en vigueur et aux règles de l’art. DJOLOF-BTP à vos côtés, relèvera les défis à la hauteur de vos exigences !
                             </p>
                             <ul class="team_main-list col-12">
                                 <li class="team_main-list_item d-flex align-items-center" data-aos="fade-up">
                                     <i class="icon-check icon"></i>
-                                    Ingenuity for life
+                                    Etude et réalisation de projet
                                 </li>
                                 <li class="team_main-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="50">
                                     <i class="icon-check icon"></i>
-                                    Lets you shine with skill
+                                    Construction et rénovation
                                 </li>
                                 <li class="team_main-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="100">
                                     <i class="icon-check icon"></i>
-                                    Make science your obedient servant
+                                    Electricité - Plomberie - Assainissement
                                 </li>
                                 <li class="team_main-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="150">
                                     <i class="icon-check icon"></i>
-                                    Development of Electrical Schematics
+                                    Vente de matériel de construction
+                                </li>
+                                <li class="team_main-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="150">
+                                    <i class="icon-check icon"></i>
+                                    Peinture
+                                </li>
+                                <li class="team_main-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="150">
+                                    <i class="icon-check icon"></i>
+                                    Tous activités de gros oeuvres et second oeuvre
                                 </li>
                             </ul>
                         </div>
 
                         <div class="team_quote col-12 col-lg-6" data-aos="fade-left" data-aos-duration="300">
                             <div class="team_quote-wrapper">
-                                <q class="team_quote-quote">
-                                    Senectus et netus et malesuada. Nunc proin pulvinar sapien et ligula ulamcorper malesuada proin
-                                </q>
-                                <div
-                                    class="
-                                        team_quote-author
-                                        d-flex
-                                        flex-wrap flex-sm-nowrap
-                                        align-items-center
-                                        justify-content-end justify-content-sm-between
-                                    "
-                                >
-                                    <div class="wrapper d-flex align-items-center">
-                                        <picture>
-                                            <source
-                                                data-srcset="img/placeholder.jpg"
-                                                srcset="img/placeholder.jpg"
-                                                type="image/webp"
-                                            />
-                                            <img
-                                                class="team_quote-author_avatar lazy"
-                                                data-src="img/placeholder.jpg"
-                                                src="img/placeholder.jpg"
-                                                alt="Daniel Strickland"
-                                            />
-                                        </picture>
-                                        <div class="wrapper wrapper--info">
-                                            <span class="team_quote-author_name">Daniel Strickland</span>
-                                            <span class="team_quote-author_profession">Founder of the company</span>
-                                        </div>
-                                    </div>
+                                <div style="text-align: right; margin-bottom: -87px;">
                                     <svg
                                         class="quote-icon"
-                                        width="83"
-                                        height="73"
+                                        width="80"
+                                        height="70"
                                         viewBox="0 0 83 73"
                                         fill="none"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -709,6 +674,39 @@
                                             fill="#FFC631"
                                         />
                                     </svg>
+                                </div>
+
+                                <q class="team_quote-quote">
+                                    Qu'il soit liées à la construction, à la réhabilitation ou la maintenance des bâtiments et des infrastructures</br>DJOLOF-BTP est la solution.</q>
+                                <div
+                                    class="
+                                        team_quote-author
+                                        d-flex
+                                        flex-wrap flex-sm-nowrap
+                                        align-items-center
+                                        justify-content-end justify-content-sm-between
+                                    "
+                                >
+                                    <div class="wrapper d-flex align-items-center">
+                                        <picture>
+                                            <source
+                                                data-srcset="{{ asset('assets/img/logo-td.png') }}"
+                                                srcset="{{ asset('assets/img/logo-td.png') }}"
+                                                type="image/webp"
+                                            />
+                                            <img
+                                                class="team_quote-author_avatar lazy"
+                                                data-src="{{ asset('assets/img/logo-td.png') }}"
+                                                src="{{ asset('assets/img/logo-td.png') }}"
+                                                alt="Logo"
+                                            />
+                                        </picture>
+                                        <div class="wrapper wrapper--info">
+                                            <span class="team_quote-author_name">Daniel Strickland</span>
+                                            <span class="team_quote-author_profession">Founder of the company</span>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
