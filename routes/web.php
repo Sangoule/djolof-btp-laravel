@@ -31,5 +31,5 @@ Route::get('/contact', function () {
 });
 
 Route::get('/', function () {
-    return view('index1');
+    return view('accueil');
 });

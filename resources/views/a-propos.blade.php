@@ -265,7 +265,7 @@
                             </div>
                         </li>
                         <li class="services_slider-slide d-flex flex-wrap align-items-start align-items-xl-center">
-                            <div class="img-wrapper col-md-5" data-aos="fade-up" data-aos-delay="200>
+                            <div class="img-wrapper col-md-5" data-aos="fade-up" data-aos-delay="200">
                                 <picture>
                                     <source
                                         data-srcset="{{ asset('assets/img/Vente-de-matériel-de-construction.jpeg') }}"

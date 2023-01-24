@@ -1,17 +1,11 @@
 <footer class="footer primary-bg">
-            <div class="container">
+            <div class="container" style="margin-top: -50px;">
                 <div class="footer_main d-flex flex-wrap justify-content-md-between col-12">
                     <div class="footer_main-block col-sm-12 col-xl-auto">
                         <a class="brand d-inline-flex align-items-center justify-content-center" href="/">
-                            <svg width="31" height="31" viewBox="0 0 31 31" fill="none" >
-                                <img src="{{ asset('assets/img/logo-td.png') }}" alt="logo Djolof-BTP">
-                            </svg>
+                            <img  src="{{ asset('assets/img/logo-td.png') }}" alt="logo Djolof-BTP">
 
                         </a>
-                        <a class="brand d-inline-flex align-items-center justify-content-center" href="/">
-                            Djolof- <span class="highlight">BTP</span>
-                        </a>
-
                         <p class="footer_main-block_subtitle footer_main-block_subtitle--brand">
                             La société SICAT BTP, entreprise générale du bâtiment, met son savoir-faire et son expertise pour vous accompagner tout au long de vos projets de construction.
                         </p>
@@ -55,8 +49,7 @@
                 </div>
                 <div class="footer_secondary col-12 d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
                     <p class="footer_secondary-copyright">
-                        <span>Merkulove &copy; Axial Construct Template</span>
-                        <span>All rights reserved Copyrights 2021</span>
+                        <span>All rights reserved &copy; Copyrights 2023</span>
                     </p>
                     <ul class="socials d-flex align-items-center justify-content-start socials--alt">
                         <li class="socials_item">
