@@ -3,29 +3,15 @@
     </head>
     <body>
         <header class="header primary-bg" data-page="contacts2">
-                    <div class="header_navbar">
-                    <div class="container d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between">
-                    <a class="brand d-inline-flex align-items-center justify-content-center" href="/">
-                        <img src="{{ asset('assets/img/logo-td.png') }}" width="70" height="70" alt="imglogo">
-                    </a>
-                    @include('navbar')
-                    <button class="hamburger">
-                        <span class="line line--short"></span>
-                        <span class="line"></span>
-                        <span class="line line--short"></span>
-                        <span class="line"></span>
-                    </button>
-                </div>
-            </div>
-
-            <div class="header_extension">
+            @include('header-navbar')
+            <div class="header_extension" style="margin-top: -48px; margin-bottom: -150px;">
                 <div class="container">
                     <div class="section_header">
                         <span class="subtitle subtitle--extended">Établir des relations</span>
                         <h1 class="title">Contacts</h1>
                         <ul class="breadcrumbs d-flex align-items-center">
                             <li class="breadcrumbs_item">
-                                <a href="index.html">Accueil</a>
+                                <a href="/">Accueil</a>
                             </li>
                             <li class="breadcrumbs_item breadcrumbs_item--current">
                                 <span>Contacts</span>

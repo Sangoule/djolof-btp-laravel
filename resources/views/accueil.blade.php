@@ -1,10 +1,10 @@
-
 @include('head')
         <link rel="stylesheet" href="{{ asset('assets/css/index.min.css') }}" />
     </head>
     <body>
         <header class="header primary-bg" data-page="home">
             @include('header-navbar')
+
         </header>
         <!--  HOMEPAGE CONTENT START  -->
         <main>
@@ -38,7 +38,7 @@
                         <span class="subtitle subtitle--extended"> Professionnel---Innovant---Fiable</span>
                         <h1 class="title">Service exceptionnel dépassant les attentes</h1>
                         <p class="text">
-                            Notre équipe civile et structurelle s'engage à fournir des solutions d'ingénierie durables, créatives et efficaces pour nos communautés
+                            Notre équipe civile et structurelle s'engage à fournir des solutions d'ingénierie durables, créatives et efficaces pour les communautés.
                         </p>
                         <a class="btn" href="contact">Nous contactez</a>
                     </div>
