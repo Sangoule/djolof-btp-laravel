@@ -30,87 +30,66 @@
             <section class="services section">
                 <div class="container">
                     <div class="services_header section_header">
-                        <span class="subtitle">What we do</span>
+                        <span class="subtitle">Ce que nous faisons</span>
                         <h2 class="title" data-aos="fade-right" data-aos-duration="500">Services</h2>
                     </div>
                     <ul class="services_list row g-0">
                         <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="1">
                             <div class="wrapper d-flex flex-column align-items-start justify-content-between">
                                 <span class="number">01</span>
-                                <h4 class="title">Process Engineering</h4>
+                                <h4 class="title">Etude et réalisation de projet</h4>
                                 <p class="description">
-                                    Senectus et netus et malesuada. Nunc pulvinar sapien et ligula ullamcorper malesuada proin
+                                    L'étude et la réalisation d'un projet impliquent plusieurs étapes clés, notamment la définition des objectifs et des besoins, la planification, la mise en œuvre et le suivi de l'avancement. Il est important de bien comprendre les exigences du projet et de les communiquer efficacement aux différentes parties prenantes pour garantir un résultat final réussi. La gestion de projet est un domaine clé pour la réussite de tout projet.
                                 </p>
-                                <a class="link link-arrow" href="single-service.html">
-                                    Details
-                                    <i class="icon-arrow_right"></i>
-                                </a>
                             </div>
                         </li>
                         <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="2">
                             <div class="wrapper d-flex flex-column align-items-start justify-content-between">
                                 <span class="number">02</span>
-                                <h4 class="title">Construction Management</h4>
+                                <h4 class="title">Construction et rénovation</h4>
                                 <p class="description">
-                                    Donec adipiscing tristique risus nec feugiat in. Porttitor massa id neque aliquam vestibulum morbi
+                                    La construction et la rénovation de bâtiments impliquent plusieurs étapes clés, notamment la planification, la conception, la construction et la finition. La conception, quant à elle, permet de créer les plans et les devis pour le bâtiment. La construction implique la mise en place des fondations, la pose des murs, des toits et des fenêtres, ainsi que l'installation des systèmes électriques, de plomberie et de climatisation. La finition comprend la pose des revêtements de sol, la peinture, l'installation de la cuisine et de la salle de bains.
                                 </p>
-                                <a class="link link-arrow" href="single-service.html">
-                                    Details
-                                    <i class="icon-arrow_right"></i>
-                                </a>
                             </div>
                         </li>
                         <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="3">
                             <div class="wrapper d-flex flex-column align-items-start justify-content-between">
                                 <span class="number">03</span>
-                                <h4 class="title">Civil Engineering</h4>
+                                <h4 class="title">Electricité - Plomberie - Assainissement</h4>
                                 <p class="description">
-                                    Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.
+                                    Sont des domaines clés pour la construction et la rénovation de bâtiments. L'électricité est responsable de fournir l'énergie électrique nécessaire aux bâtiments pour alimenter les appareils électroniques .
+                                    La plomberie est responsable de la distribution de l'eau potable et de l'évacuation des eaux usées.
+                                    L'assainissement est responsable de la collecte, du traitement et de la réutilisation ou de l'élimination des eaux usées.
+                                    Il est essentiel de choisir des professionnels qualifiés pour garantir la qualité .
                                 </p>
-                                <a class="link link-arrow" href="single-service.html">
-                                    Details
-                                    <i class="icon-arrow_right"></i>
-                                </a>
                             </div>
                         </li>
                         <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="4">
                             <div class="wrapper d-flex flex-column align-items-start justify-content-between">
                                 <span class="number">04</span>
-                                <h4 class="title">Electrical Engineering</h4>
+                                <h4 class="title">Vente de matériel de construction</h4>
                                 <p class="description">
-                                    Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Nam aliquam sem et tortor
+                                    La vente de matériel de construction implique la fourniture de produits et d'équipements nécessaires pour la construction et la rénovation de bâtiments. Ces produits peuvent inclure des matériaux de construction tels que des briques, du bois, de la pierre, des métaux, des plastiques, des plâtres, des peintures, des revêtements de sol, des tuiles, des carrelages, des équipements électriques et de plomberie, des outils manuels et électriques, des équipements de levage et de transport, etc.
                                 </p>
-                                <a class="link link-arrow" href="single-service.html">
-                                    Details
-                                    <i class="icon-arrow_right"></i>
-                                </a>
                             </div>
                         </li>
                         <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="5">
                             <div class="wrapper d-flex flex-column align-items-start justify-content-between">
                                 <span class="number">05</span>
-                                <h4 class="title">Chemistry and Metallurgy</h4>
+                                <h4 class="title">Peinture</h4>
                                 <p class="description">
-                                    Mollis nunc sed id semper. Sodales ut etiam sit amet nisl purus. Sed odio morbi quis commodo odio
+                                    La peinture est un revêtement utilisé pour donner de la couleur et de l'esthétique à un surface, ainsi qu'une protection contre les intempéries, l'humidité et les rayures. Il existe différents types de peintures, notamment les peintures à l'huile, les peintures à l'eau, les peintures acryliques, les peintures époxy, les peintures à base de solvant, etc. Chacun de ces types de peintures a ses propres caractéristiques et ses avantages pour différents types d'utilisations.
                                 </p>
-                                <a class="link link-arrow" href="single-service.html">
-                                    Details
-                                    <i class="icon-arrow_right"></i>
-                                </a>
                             </div>
                         </li>
                         <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="6">
                             <div class="wrapper d-flex flex-column align-items-start justify-content-between">
                                 <span class="number">06</span>
-                                <h4 class="title">Specialty Services</h4>
+                                <h4 class="title">Tous activités de gros oeuvres et second oeuvre</h4>
                                 <p class="description">
-                                    Tellus elementum sagittis vitae et. Amet justo donec enim diam vulputate ut consequat id porta nibh
-                                    venenatis
+                                    Les activités de gros œuvre comprennent les étapes de la construction du bâtiment telles que la fondation, les murs porteurs, les toits, les portes et les escaliers. Ces activités nécessitent des matériaux de construction.
+                                    Les activités de second œuvre comprennent les étapes de finition telles que la pose des revêtements de sol, la peinture, l'électricité, la plomberie et l'assainissement. Ces activités nécessitent des matériaux de finition tels que les carrelages, les tuiles, les équipements électriques et de plomberie.
                                 </p>
-                                <a class="link link-arrow" href="single-service.html">
-                                    Details
-                                    <i class="icon-arrow_right"></i>
-                                </a>
                             </div>
                         </li>
                     </ul>
@@ -150,18 +129,9 @@
                             </li>
                         </ul>
                         <div class="numbers_video col-12" data-aos="zoom-in" data-aos-duration="600" data-aos-once="true">
-                            <picture>
-                                <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" />
-                                <img
-                                    class="numbers_video-thumb lazy"
-                                    data-src="img/placeholder.jpg"
-                                    src="img/placeholder.jpg"
-                                    alt="thumbnail"
-                                />
-                            </picture>
-                            <a class="btn-play d-inline-flex align-items-center justify-content-center" href="#">
-                                <i class="icon-play"></i>
-                            </a>
+                            <video width="100%" autoplay muted>
+                                <source src="{{ asset('assets/img/14.mp4') }}" data-srcset="{{ asset('assets/img/14.mp4') }}" srcset="{{ asset('assets/img/14.mp4') }}" alt="video" />
+                            </video>
                         </div>
                     </div>
                 </div>
@@ -169,14 +139,13 @@
             <section class="advantages section-nopb">
                 <div class="container d-flex flex-wrap flex-xl-nowrap align-items-end align-items-xl-center justify-content-center">
                     <div class="advantages_header section_header col-xl-auto">
-                        <span class="subtitle" data-aos="fade-down">The choice is your time is ours</span>
+                        <span class="subtitle" data-aos="fade-down">Le choix de votre temps est le nôtre</span>
                         <h2 class="title" data-aos="fade-right">
-                            Solving Problems With the Help
-                            <span class="highlight">of Experts</span>
+                            Résoudre les problèmes avec l'aide
+                            <span class="highlight">d'experts</span>
                         </h2>
                         <p class="text" data-aos="fade-up" data-aos-delay="50">
-                            Nibh praesent tristique magna sit amet purus gravida quis. Bibendum arcu vitae elementum curabitur vitae nulla
-                            facilisi. Quam vulputate dignissim suspendisse in
+                            <span class="highlight">DJOLOF-BTP</span>, entreprise générale du bâtiment, met son savoir-faire et son expertise pour vous accompagner tout au long de vos projets de construction.
                         </p>
                         <ul class="advantages_header-list">
                             <li class="advantages_header-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="100">
@@ -201,7 +170,7 @@
                                     </defs>
                                 </svg>
 
-                                <span class="label"> Successfully Completed Projects </span>
+                                <span class="label"> Projets achevés avec succès  </span>
                             </li>
                             <li class="advantages_header-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="150">
                                 <svg
@@ -225,7 +194,7 @@
                                     </defs>
                                 </svg>
 
-                                <span class="label"> Simplicity In Design With Practically In Mind </span>
+                                <span class="label"> La simplicité dans la conception avec l'esprit pratique </span>
                             </li>
                             <li class="advantages_header-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
                                 <svg
@@ -249,140 +218,58 @@
                                     </defs>
                                 </svg>
 
-                                <span class="label"> High Level of Construction Control Approval </span>
+                                <span class="label"> Niveau élevé d'approbation du contrôle de la construction </span>
                             </li>
                         </ul>
                     </div>
                     <div class="advantages_img col-xl-auto" data-aos="zoom-in" data-aos-duration="600">
                         <picture>
                             <source
-                                data-srcset="img/placeholder.jpg"
-                                srcset="img/placeholder.jpg"
+                                data-srcset="{{ asset('assets/img/modele-maison-baobab3d.jpg') }}"
+                                srcset="{{ asset('assets/img/modele-maison-baobab3d.jpg') }}"
                                 type="image/webp"
                             />
                             <img
                                 class="advantages_img-img"
-                                data-src="img/placeholder.jpg"
-                                src="img/placeholder.jpg"
+                                height="667px"
+                                data-src="{{ asset('assets/img/modele-maison-baobab3d.jpg') }}"
+                                src="{{ asset('assets/img/modele-maison-baobab3d.jpg') }}"
                                 alt="media"
                             />
                         </picture>
                     </div>
                 </div>
             </section>
-            <section class="skills section">
-                <div
-                    class="container d-flex flex-wrap flex-xl-nowrap align-items-center justify-content-md-center justify-content-xl-start"
-                >
-                    <div class="wrapper wrapper--skills col-xl-auto">
-                        <div class="skills_header section_header">
-                            <span class="subtitle" data-aos="fade-down">We build only quality things</span>
-                            <h2 class="title" data-aos="fade-right">
-                                Trusted Quality for Over
-                                <span class="highlight">20 Years</span>
-                            </h2>
-                            <p class="text" data-aos="fade-up" data-aos-delay="50">
-                                Convallis a cras semper auctor neque vitae. Lectus proin nibh nisl condimentum fermentum odio eu. Augue
-                                neque gravida in fermentum et sollicitudin
-                            </p>
-                        </div>
-                        <ul class="skills_list">
-                            <li
-                                class="
-                                    skills_list-item
-                                    d-flex
-                                    flex-column flex-sm-row flex-wrap
-                                    align-items-sm-center
-                                    justify-content-between
-                                "
-                            >
-                                <span class="label" data-aos="zoom-in" data-aos-duration="400">Industry</span>
-                                <span class="progressLine" id="industry" data-value="90" data-fill="#0DA574"></span>
-                            </li>
-                            <li
-                                class="
-                                    skills_list-item
-                                    d-flex
-                                    flex-column flex-sm-row flex-wrap
-                                    align-items-sm-center
-                                    justify-content-between
-                                "
-                            >
-                                <span class="label" data-aos="zoom-in" data-aos-duration="400">Engineering</span>
-                                <span class="progressLine" id="engineering" data-value="96" data-fill="#FFC631"></span>
-                            </li>
-                            <li
-                                class="
-                                    skills_list-item
-                                    d-flex
-                                    flex-column flex-sm-row flex-wrap
-                                    align-items-sm-center
-                                    justify-content-between
-                                "
-                            >
-                                <span class="label" data-aos="zoom-in" data-aos-duration="400">Factory</span>
-                                <span class="progressLine" id="factory" data-value="89" data-fill="#0DA574"></span>
-                            </li>
-                            <li
-                                class="
-                                    skills_list-item
-                                    d-flex
-                                    flex-column flex-sm-row flex-wrap
-                                    align-items-sm-center
-                                    justify-content-between
-                                "
-                            >
-                                <span class="label" data-aos="zoom-in" data-aos-duration="400">Construction</span>
-                                <span class="progressLine" id="construction" data-value="99" data-fill="#FFC631"></span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="skills_img col-xl-auto" data-aos="zoom-in" data-aos-duration="600">
-                        <picture>
-                            <source
-                                data-srcset="img/placeholder.jpg"
-                                srcset="img/placeholder.jpg"
-                                type="image/webp"
-                            />
-                            <img
-                                class="skills_img-img"
-                                data-src="img/placeholder.jpg"
-                                src="img/placeholder.jpg"
-                                alt="media"
-                            />
-                        </picture>
-                    </div>
-                </div>
-            </section>
+
             <section class="gallery">
                 <div class="container-fluid p-0">
                     <ul class="gallery_list d-flex flex-wrap">
                         <li class="gallery_list-item col-12 col-sm-6 col-xl-3">
                             <a
                                 class="gallery_list-item_trigger"
-                                href="img/placeholder.jpg"
-                                data-caption="Fresh Concept Construction Renovation"
+                                href="{{ asset('assets/img/11.jpeg') }}"
+                                data-caption="Architecture Moderne"
                                 data-role="gallery-link"
                             >
                                 <div class="img-wrapper">
                                     <picture>
                                         <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
-                                            type="image/webp"
+                                            data-srcset="{{ asset('assets/img/11.jpeg') }}"
+                                            srcset="{{ asset('assets/img/11.jpeg') }}"
+                                            type="image/png"
                                         />
                                         <img
                                             class="lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
+                                            data-src="{{ asset('assets/img/11.jpeg') }}"
+                                            src="{{ asset('assets/img/11.jpeg') }}"
                                             alt="Fresh Concept Construction Renovation"
                                         />
                                     </picture>
                                 </div>
                                 <div class="text-wrapper d-flex flex-column justify-content-end">
-                                    <span class="subtitle">Our gallery</span>
-                                    <h4 class="title">Fresh Concept Construction Renovation</h4>
-                                    <span class="label">Special Projects</span>
+                                    <span class="subtitle">Notre galerie</span>
+                                    <h4 class="title">Architecture Moderne</h4>
+                                    <span class="label">Devanture</span>
                                 </div>
                             </a>
                         </li>
@@ -390,29 +277,29 @@
                         <li class="gallery_list-item col-12 col-sm-6 col-xl-3">
                             <a
                                 class="gallery_list-item_trigger"
-                                href="img/placeholder.jpg"
-                                data-caption="Fresh Concept Construction Renovation"
+                                href="{{ asset('assets/img/13.jpeg') }}"
+                                data-caption="Modélisation"
                                 data-role="gallery-link"
                             >
                                 <div class="img-wrapper">
                                     <picture>
                                         <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
+                                            data-srcset="{{ asset('assets/img/13.jpeg') }}"
+                                            srcset="{{ asset('assets/img/13.jpeg') }}"
                                             type="image/webp"
                                         />
                                         <img
                                             class="lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
+                                            data-src="{{ asset('assets/img/13.jpeg') }}"
+                                            src="{{ asset('assets/img/13.jpeg') }}"
                                             alt="Fresh Concept Construction Renovation"
                                         />
                                     </picture>
                                 </div>
                                 <div class="text-wrapper d-flex flex-column justify-content-end">
-                                    <span class="subtitle">Our gallery</span>
-                                    <h4 class="title">Fresh Concept Construction Renovation</h4>
-                                    <span class="label">Special Projects</span>
+                                    <span class="subtitle">Notre galerie</span>
+                                    <h4 class="title">Rénovation de la construction de Fresh Concept</h4>
+                                    <span class="label">Modélisation</span>
                                 </div>
                             </a>
                         </li>
@@ -420,29 +307,29 @@
                         <li class="gallery_list-item col-12 col-sm-6 col-xl-3">
                             <a
                                 class="gallery_list-item_trigger"
-                                href="img/placeholder.jpg"
-                                data-caption="Fresh Concept Construction Renovation"
+                                href="{{ asset('assets/img/10.jpeg') }}"
+                                data-caption="Parking"
                                 data-role="gallery-link"
                             >
                                 <div class="img-wrapper">
                                     <picture>
                                         <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
+                                            data-srcset="{{ asset('assets/img/10.jpeg') }}"
+                                            srcset="{{ asset('assets/img/10.jpeg') }}"
                                             type="image/webp"
                                         />
                                         <img
                                             class="lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
-                                            alt="Fresh Concept Construction Renovation"
+                                            data-src="{{ asset('assets/img/10.jpeg') }}"
+                                            src="{{ asset('assets/img/10.jpeg') }}"
+                                            alt="Parking"
                                         />
                                     </picture>
                                 </div>
                                 <div class="text-wrapper d-flex flex-column justify-content-end">
-                                    <span class="subtitle">Our gallery</span>
-                                    <h4 class="title">Fresh Concept Construction Renovation</h4>
-                                    <span class="label">Special Projects</span>
+                                    <span class="subtitle">Notre galerie</span>
+                                    <h4 class="title">Parking</h4>
+                                    <span class="label">Modélisation</span>
                                 </div>
                             </a>
                         </li>
@@ -450,130 +337,34 @@
                         <li class="gallery_list-item col-12 col-sm-6 col-xl-3">
                             <a
                                 class="gallery_list-item_trigger"
-                                href="img/placeholder.jpg"
-                                data-caption="Fresh Concept Construction Renovation"
+                                href="{{ asset('assets/img/2.jpeg') }}"
+                                data-caption="Architecture Moderne"
                                 data-role="gallery-link"
                             >
                                 <div class="img-wrapper">
                                     <picture>
                                         <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
+                                            data-srcset="{{ asset('assets/img/2.jpeg') }}"
+                                            srcset="{{ asset('assets/img/2.jpeg') }}"
                                             type="image/webp"
                                         />
                                         <img
                                             class="lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
+                                            data-src="{{ asset('assets/img/2.jpeg') }}"
+                                            src="{{ asset('assets/img/2.jpeg') }}"
                                             alt="Fresh Concept Construction Renovation"
                                         />
                                     </picture>
                                 </div>
                                 <div class="text-wrapper d-flex flex-column justify-content-end">
-                                    <span class="subtitle">Our gallery</span>
-                                    <h4 class="title">Fresh Concept Construction Renovation</h4>
-                                    <span class="label">Special Projects</span>
+                                    <span class="subtitle">Notre galerie</span>
+                                    <h4 class="title">Architecture Moderne</h4>
+                                    <span class="label">Architecture Moderne</span>
                                 </div>
                             </a>
                         </li>
+
                     </ul>
-                </div>
-            </section>
-            <section class="contact section">
-                <div class="container d-flex flex-wrap align-items-end justify-content-lg-between justify-content-xl-start">
-                    <div class="contact_form col-lg-6">
-                        <div class="contact_form-header section_header">
-                            <span class="subtitle">Contact us</span>
-                            <h2 class="title">
-                                Do You Have any
-                                <span class="highlight">Questions?</span>
-                            </h2>
-                        </div>
-                        <form
-                            action="#"
-                            class="contact_form-form contact-form d-flex flex-wrap justify-content-between"
-                            method="POST"
-                            name="feedbackForm"
-                            data-type="feedback"
-                        >
-                            <input
-                                class="contact-form_field contact-form_field--half field required"
-                                name="feedbackName"
-                                id="feedbackName"
-                                type="text"
-                                placeholder="Full name"
-                            />
-                            <input
-                                class="contact-form_field contact-form_field--half field required"
-                                data-type="tel"
-                                type="text"
-                                name="feedbackTel"
-                                id="feedbackTel"
-                                placeholder="Phone"
-                            />
-                            <input
-                                class="contact-form_field field required"
-                                data-type="email"
-                                type="text"
-                                name="feedbackEmail"
-                                id="feedbackEmail"
-                                placeholder="Email Address"
-                            />
-                            <textarea
-                                class="contact-form_field field required"
-                                data-type="message"
-                                name="feedbackMessage"
-                                id="feedbackMessage"
-                                placeholder="Message"
-                            ></textarea>
-                            <button type="submit" class="contact-form_btn btn">Send message</button>
-                        </form>
-                    </div>
-                    <div class="contact_info">
-                        <h3 class="contact_info-header">Are You Going to Implement Project?</h3>
-                        <ul class="contact-info">
-                            <li class="contact-info_group">
-                                <span class="name">Address</span>
-                                <span class="content">2047 Cyrus Viaduct East Jadynchester</span>
-                            </li>
-                            <li class="contact-info_group">
-                                <span class="name">Email</span>
-                                <span class="content d-inline-flex flex-column">
-                                    <a class="link" href="mailto:example.com">info@construct.com</a>
-                                    <a class="link" href="mailto:example.com">support@construct.com</a>
-                                </span>
-                            </li>
-                            <li class="contact-info_group">
-                                <span class="name">Phone</span>
-                                <span class="content d-inline-flex flex-column">
-                                    <a class="link" href="tel:+13136453395">1 - 313 - 645 - 3395</a>
-                                    <a class="link" href="tel:+14699702609">1 - 469 - 970 - 2609</a>
-                                </span>
-                            </li>
-                        </ul>
-                        <ul class="socials d-flex align-items-center justify-content-start">
-                            <li class="socials_item">
-                                <a class="socials_item-link" href="#" target="_blank" rel="noopener noreferrer">
-                                    <i class="icon-facebook"></i>
-                                </a>
-                            </li>
-                            <li class="socials_item">
-                                <a class="socials_item-link" href="#" target="_blank" rel="noopener noreferrer">
-                                    <i class="icon-instagram"></i>
-                                </a>
-                            </li>
-                            <li class="socials_item">
-                                <a class="socials_item-link" href="#" target="_blank" rel="noopener noreferrer">
-                                    <i class="icon-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="socials_item">
-                                <a class="socials_item-link" href="#" target="_blank" rel="noopener noreferrer">
-                                    <i class="icon-whatsapp"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </section>
         </main>

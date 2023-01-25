@@ -503,7 +503,6 @@
 
                     <div class="row g-0">
                         <div class="team_video col-12" width="100%" data-aos="zoom-in" data-aos-duration="600" data-aos-once="true">
-
                             <video autoplay  muted class="col-12">
                                 <source src="{{ asset('assets/img/14.mp4') }}">
                             </video>
