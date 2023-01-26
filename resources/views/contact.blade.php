@@ -4,7 +4,7 @@
     <body>
         <header class="header primary-bg" data-page="contacts2">
             @include('header-navbar')
-            <div class="header_extension" style="margin-top: -48px; margin-bottom: -150px;">
+            <div class="header_extension">
                 <div class="container">
                     <div class="section_header">
                         <span class="subtitle subtitle--extended">Établir des relations</span>

@@ -6,7 +6,7 @@
     <body>
         <header class="header primary-bg" data-page="about">
             @include('header-navbar')
-            <div class="header_extension">
+            <div class="header_extension" style=" margin-bottom: -250px;">
                 <div class="container">
                     <div class="section_header">
                         <span class="subtitle subtitle--extended">Construire des communautés</span>
@@ -492,7 +492,7 @@
                     </ul>
                 </div>
             </section>
-            
+
         </main>
         <!-- ABOUT CONTENT END  -->
         @include('footer')

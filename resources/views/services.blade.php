@@ -4,7 +4,8 @@
     <body>
         <header class="header primary-bg" data-page="services">
             @include('header-navbar')
-            <div class="header_extension" style="margin-top: -48px; margin-bottom: -150px;">
+            <div class="header_extension" >
+                {{-- style="margin-top: -48px; margin-bottom: -150px;" --}}
                 <div class="container">
                     <div class="section_header">
                         <span class="subtitle subtitle--extended">Construire des communautés</span>
@@ -27,7 +28,7 @@
         </header>
         <!-- SERVICES CONTENT START -->
         <main>
-            <section class="services section">
+            <section class="services section" style="margin-top: -160px">
                 <div class="container">
                     <div class="services_header section_header">
                         <span class="subtitle">Ce que nous faisons</span>
