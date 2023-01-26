@@ -27,7 +27,7 @@
         </header>
         <!-- CONTACTS CONTENT (ALT) START  -->
         <main>
-            <section class="contact section">
+            <section class="contact section" style="margin-top: -135px;">
                 <div class="container d-flex flex-wrap justify-content-center justify-content-lg-between align-items-end">
                     <div class="wrapper wrapper--form col-12 col-lg-6">
                         <div class="contact_header section_header">

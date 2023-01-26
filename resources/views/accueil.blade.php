@@ -62,8 +62,6 @@
                                     col-6 col-sm-auto col-md-12
                                 "
                             >
-                                <h2 class="countNum number" data-prefix="+" data-value="128">0</h2>
-                                <span class="label">Projets</span>
                             </div>
                         </div>
                         <div class="hero_info-card" data-wow-delay="100" data-wow-duration="600">
