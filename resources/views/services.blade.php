@@ -5,7 +5,6 @@
         <header class="header primary-bg" data-page="services">
             @include('header-navbar')
             <div class="header_extension" >
-                {{-- style="margin-top: -48px; margin-bottom: -150px;" --}}
                 <div class="container">
                     <div class="section_header">
                         <span class="subtitle subtitle--extended">Construire des communautés</span>
@@ -28,7 +27,7 @@
         </header>
         <!-- SERVICES CONTENT START -->
         <main>
-            <section class="services section" style="margin-top: -160px">
+            <section class="services section" style="margin-top: -20px;">
                 <div class="container">
                     <div class="services_header section_header">
                         <span class="subtitle">Ce que nous faisons</span>
@@ -100,33 +99,23 @@
                 <div class="container">
                     <div class="row g-3 g-lg-4 justify-content-between align-items-end">
                         <div class="numbers_header section_header col-lg-6 col-xl-5">
-                            <span class="subtitle">What we do</span>
+                            <span class="subtitle">Domaine d'activité</span>
                             <h2 class="title">
-                                Building The Future on a
-                                <span class="highlight">Foundation of Excellence</span>
+                                Des interventions diversifiées au <span class="highlight"> Maroc et partout en Afrique </span>grâce à une équipe pluridisciplinaire.
                             </h2>
-                            <p class="text">
-                                Risus commodo viverra maecenas accumsan lacus vel. Semper viverra nam libero justo laoreet sit amet cursus.
-                                Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Adipiscing elit duis tristique
-                                sollicitudin nibh sit
-                            </p>
                         </div>
                         <ul class="numbers_list d-flex flex-wrap justify-content-center col-lg-6 col-xl-6">
                             <li class="numbers_list-item d-flex flex-column align-items-start col-12 col-sm-6" data-order="1">
                                 <h2 class="countNum number" data-suffix="%" data-value="99">0</h2>
-                                <span class="label">Building Control <br />Approval Rate</span>
+                                <span class="label">Contrôle des bâtiments </span>
                             </li>
                             <li class="numbers_list-item d-flex flex-column align-items-start col-12 col-sm-6" data-order="2">
-                                <h2 class="countNum number" data-suffix="+" data-value="320">0</h2>
-                                <span class="label">Active Projects in <br />Construction Management </span>
+                                <h2 class="countNum number" data-suffix="%" data-value="99">0</h2>
+                                <span class="label">Taux d'approbation</span>
                             </li>
                             <li class="numbers_list-item d-flex flex-column align-items-start col-12 col-sm-6" data-order="3">
-                                <h2 class="countNum number" data-suffix="+" data-value="200">0</h2>
-                                <span class="label">Completed Projects <br />Every Year</span>
-                            </li>
-                            <li class="numbers_list-item d-flex flex-column align-items-start col-12 col-sm-6" data-order="4">
-                                <h2 class="countNum number" data-separator="." data-value="4253">0</h2>
-                                <span class="label">Million euros Turnover <br />in 2020</span>
+                                <h2 class="countNum number" data-prefix="+" data-value="100">0</h2>
+                                <span class="label">Projets achevés </span>
                             </li>
                         </ul>
                         <div class="numbers_video col-12" data-aos="zoom-in" data-aos-duration="600" data-aos-once="true">
@@ -242,7 +231,7 @@
                 </div>
             </section>
 
-            <section class="gallery">
+            <section class="gallery" style="margin-bottom: 50px;">
                 <div class="container-fluid p-0">
                     <ul class="gallery_list d-flex flex-wrap">
                         <li class="gallery_list-item col-12 col-sm-6 col-xl-3">

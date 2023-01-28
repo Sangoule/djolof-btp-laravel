@@ -22,9 +22,9 @@
                         <div class="group-wrapper d-flex justify-content-center">
                             <i class="icon-location icon"></i>
                             <div class="group d-flex flex-column">
-                                <span>HAY LAAYOUNE ANGLE RUE </span>
-                                <span>AIT YAFLMANE FIDA N:341</span>
-                                <span>2EME ETAGE CASABLANCA</span>
+                                <span>hay laayoune angle rue </span>
+                                <span>ait yaflmane fida N341</span>
+                                <span>2eme etage casablanca</span>
                             </div>
                         </div>
                     </div>

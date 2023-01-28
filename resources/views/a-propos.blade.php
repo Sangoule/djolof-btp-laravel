@@ -6,7 +6,7 @@
     <body>
         <header class="header primary-bg" data-page="about">
             @include('header-navbar')
-            <div class="header_extension" style=" margin-bottom: -250px;">
+            <div class="header_extension">
                 <div class="container">
                     <div class="section_header">
                         <span class="subtitle subtitle--extended">Construire des communautés</span>
@@ -29,7 +29,7 @@
         </header>
         <!-- ABOUT CONTENT START  -->
         <main>
-            <section class="hero section">
+            <section class="hero section" style="padding-top: 25px;">
                 <div class="container d-flex flex-wrap flex-xl-nowrap align-items-xl-center justify-content-between">
                     <div class="hero_header section_header col-xl-auto">
                         <span class="subtitle" data-aos="fade-down">Qui sommes-nous ?</span>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
             </section>
-            <section class="quote primary-bg section">
+            <section class="quote primary-bg section" style="padding-top: 25px; padding-bottom: 25px;">
 
                 <div class="container">
                     <div class="quote_header section_header">
@@ -124,7 +124,7 @@
                     </div>
                 </div>
             </section>
-            <section class="services section">
+            <section class="services section" style="padding-top: 25px;">
                 <div class="container">
                     <div class="services_header section_header">
                         <span class="subtitle">Sentez le futur</span>
@@ -144,8 +144,8 @@
                                     />
                                     <img
                                         class="lazy"
-                                        data-src="img/placeholder.jpg"
-                                        src="img/placeholder.jpg"
+                                        data-src="{{ asset('assets/img/etudeetrealisation.webp') }}"
+                                        src="{{ asset('assets/img/etudeetrealisation.webp') }}"
                                         alt="Etude et réalisation de projet "
                                     />
                                 </picture>
@@ -177,7 +177,7 @@
                             </div>
                         </li>
                         <li class="services_slider-slide d-flex flex-wrap align-items-start align-items-xl-center">
-                            <div class="img-wrapper col-md-5" data-aos="fade-up" data-aos-delay="50">
+                            <div class="img-wrapper col-md-5" data-aos="fade-up" data-aos-delay="50" >
                                 <picture>
                                     <source
                                         data-srcset="{{ asset('assets/img/Construction-et-rénovation.jpg') }}"
@@ -187,12 +187,12 @@
                                     <img
                                         class="lazy"
                                         data-src="{{ asset('assets/img/Construction-et-rénovation.jpg') }}"
-                                        src="{{ asset('assets/Construction-et-rénovation.jpg.jpg') }}"
+                                        src="{{ asset('assets/img/Construction-et-rénovation.jpg') }}"
                                         alt="Construction et rénovation.jpg"
+                                        style="height: 363px"
                                     />
                                 </picture>
                             </div>
-
                             <div class="text-wrapper col-md-6">
                                 <h3 class="title primary-bg">Construction & Rénovation</h3>
                                 <p class="text">
@@ -225,7 +225,7 @@
                             </div>
                         </li>
                         <li class="services_slider-slide d-flex flex-wrap align-items-start align-items-xl-center">
-                            <div class="img-wrapper col-md-5" data-aos="fade-up" data-aos-delay="200>
+                            <div class="img-wrapper col-md-5" data-aos="fade-up" data-aos-delay="200" >
                                 <picture>
                                     <source
                                         data-srcset="{{ asset('assets/img/Electricite.jpeg') }}"
@@ -237,6 +237,7 @@
                                         data-src="{{ asset('assets/img/Electricite.jpeg') }}"
                                         src="{{ asset('assets/img/Electricite.jpeg') }}"
                                         alt="Electricité - Plomberie - Assainissement"
+                                        style="height: 273px;"
                                     />
                                 </picture>
                             </div>
@@ -261,21 +262,20 @@
                                          Installations sanitaires et autres
                                     </li>
                                 </ul>
-                                {{-- <a class="btn" href="#">Read more</a> --}}
                             </div>
                         </li>
                         <li class="services_slider-slide d-flex flex-wrap align-items-start align-items-xl-center">
                             <div class="img-wrapper col-md-5" data-aos="fade-up" data-aos-delay="200">
                                 <picture>
                                     <source
-                                        data-srcset="{{ asset('assets/img/Vente-de-matériel-de-construction.jpeg') }}"
-                                        srcset="{{ asset('assets/img/Vente-de-matériel-de-construction.jpeg') }}"
+                                        data-srcset="{{ asset('assets/img/Vente-de-materiel-de-construction.jpeg') }}"
+                                        srcset="{{ asset('assets/img/Vente-de-materiel-de-construction.jpeg') }}"
                                         type="image/webp"
                                     />
                                     <img
                                         class="lazy"
-                                        data-src="{{ asset('assets/img/Vente-de-matériel-de-construction.jpeg') }}"
-                                        src="{{ asset('assets/img/Vente-de-matériel-de-construction.jpeg') }}"
+                                        data-src="{{ asset('assets/img/Vente-de-materiel-de-construction.jpeg') }}"
+                                        src="{{ asset('assets/img/Vente-de-materiel-de-construction.jpeg') }}"
                                         alt="Vente-de-matériel-de-construction"
                                     />
                                 </picture>
@@ -299,7 +299,7 @@
                             </div>
                         </li>
                         <li class="services_slider-slide d-flex flex-wrap align-items-start align-items-xl-center">
-                            <div class="img-wrapper col-md-5" data-aos="fade-up" data-aos-delay="200>
+                            <div class="img-wrapper col-md-5" data-aos="fade-up" data-aos-delay="200">
                                 <picture>
                                     <source
                                         data-srcset="{{ asset('assets/img/Peinture.jpeg') }}"
@@ -366,7 +366,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="gallery">
+            <section class="gallery" style="margin-bottom: 50px;">
                 <div class="container-fluid p-0">
                     <ul class="gallery_list d-flex flex-wrap">
                         <li class="gallery_list-item col-12 col-sm-6 col-xl-3">
@@ -432,21 +432,21 @@
                         <li class="gallery_list-item col-12 col-sm-6 col-xl-3">
                             <a
                                 class="gallery_list-item_trigger"
-                                href="{{ asset('assets/img/marrakech-ville-maroc-maison-arabe-architecture-détail.webp') }}"
+                                href="{{ asset('assets/img/arabe-architecture.webp') }}"
                                 data-caption="Architecture Arabe"
                                 data-role="gallery-link"
                             >
                                 <div class="img-wrapper">
                                     <picture>
                                         <source
-                                            data-srcset="{{ asset('assets/img/marrakech-ville-maroc-maison-arabe-architecture-détail.webp') }}"
-                                            srcset="{{ asset('assets/img/marrakech-ville-maroc-maison-arabe-architecture-détail.webp') }}"
+                                            data-srcset="{{ asset('assets/img/arabe-architecture.webp') }}"
+                                            srcset="{{ asset('assets/img/arabe-architecture.webp') }}"
                                             type="image/webp"
                                         />
                                         <img
                                             class="lazy"
-                                            data-src="{{ asset('assets/img/marrakech-ville-maroc-maison-arabe-architecture-détail.webp') }}"
-                                            src="{{ asset('assets/img/marrakech-ville-maroc-maison-arabe-architecture-détail.webp') }}"
+                                            data-src="{{ asset('assets/img/arabe-architecture.webp') }}"
+                                            src="{{ asset('assets/img/arabe-architecture.webp') }}"
                                             alt="Fresh Concept Construction Renovation"
                                         />
                                     </picture>

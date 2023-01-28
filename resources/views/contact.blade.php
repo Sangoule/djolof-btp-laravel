@@ -26,8 +26,8 @@
             </div>
         </header>
         <!-- CONTACTS CONTENT (ALT) START  -->
-        <main>
-            <section class="contact section" style="margin-top: -135px;">
+        <main >
+            <section class="contact section" style="margin-bottom: -80px; margin-top: -40px;">
                 <div class="container d-flex flex-wrap justify-content-center justify-content-lg-between align-items-end">
                     <div class="wrapper wrapper--form col-12 col-lg-6">
                         <div class="contact_header section_header">
@@ -125,10 +125,12 @@
                     </div>
                 </div>
             </section>
-            <div class="contacts_map container-fluid p-0">
-                <div id="map"></div>
+            <div class="contacts_map container-fluid p-0" style="margin-bottom: 154px; height: 350px;">
+                <iframe
+                style="width: 100%; height: 500px; filter: invert(100%);"
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1661.944753483859!2d-7.56911075!3d33.582218000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cd20b642ec99%3A0xbb6a3fb48edb9791!2sQuartier%20Laayoune%2C%20Casablanca%2C%20Maroc!5e0!3m2!1sfr!2ssn!4v1674931980107!5m2!1sfr!2ssn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </main>
         <!-- CONTACTS CONTENT (ALT) END  -->
-                @include('footer')
+@include('footer')
 

@@ -8,7 +8,7 @@
         </header>
         <!--  HOMEPAGE CONTENT START  -->
         <main>
-            <section class="hero primary-bg" style="margin-top: -100px">
+            <section class="hero primary-bg" >
                 <picture>
                     <source data-srcset="{{ asset('assets/img/8.jpeg') }}" srcset="{{ asset('assets/img/8.jpeg') }}" type="image/webp" data-role="deco" />
                     <img class="plan lazy" data-src="{{ asset('assets/img/8.jpeg') }}" src="{{ asset('assets/img/8.jpeg') }}" alt="media" data-role="deco" />
@@ -20,18 +20,13 @@
                             srcset="{{ asset('assets/img/8.jpeg') }}"
                             type="image/webp"
                             data-role="deco"
-                            width=57%
-                            height=100%
-
-                        />
+                            />
                         <img
                             class="hero_building lazy"
                             data-src="{{ asset('assets/img/8.jpeg') }}"
                             src="{{ asset('assets/img/8.jpeg') }}"
                             alt="media"
                             data-role="deco"
-                            width=57%
-                            height=100%
                         />
                     </picture>
                     <div class="hero_header section_header col-md-7 col-xl-auto">
@@ -78,7 +73,7 @@
             </section>
             {{-- Pourquoi nous choisir --}}
             <section class="features primary-bg section-nopb">
-                <div class="container p-md-0" style="margin-top: -100px">
+                <div class="container p-md-0" >
                     <div class="row g-0">
                         <div class="features_header section_header col-12 col-md-12 col-lg-6 col-xl-4">
                             <span class="subtitle">Pourquoi nous choisir</span>
@@ -334,8 +329,8 @@
                 <div style="margin-bottom: -100px;" ></div>
             </section>
             {{-- Ce que nous faisons --}}
-            <section class="services section">
-                <div class="container" style="margin-bottom: -120px;">
+            <section class="services section" style="padding-top: 122px; padding-bottom: 30px; ">
+                <div class="container">
                     <div class="services_header section_header">
                         <span class="subtitle"> Ce que nous faisons </span>
                         <h2 class="title" data-aos="fade-right" data-aos-duration="500">
@@ -375,8 +370,8 @@
                 </div>
             </section>
             {{-- Ce que nous faisons --}}
-            <section class="projects primary-bg section">
-                <div class="container" style="margin-top: -100px">
+            <section class="projects primary-bg section" style="padding-top: 25px; padding-bottom: 10px;">
+                <div class="container" >
                     <div class="projects_header section_header">
                         <span class="subtitle">Réalisations</span>
                         <h2 class="title" data-aos="fade-right" data-aos-duration="500">Nos <span class="highlight">Projets</span></h2>
@@ -487,8 +482,8 @@
                 </div>
             </section>
 
-            <section class="team primary-bg section">
-                <div class="container" style="margin-top: -326px; margin-bottom: -120px;">
+            <section class="team primary-bg section" style="padding-top: 10px; padding-bottom: 35px;">
+                <div class="container" >
                     <div class="wrapper d-flex flex-wrap align-items-end justify-content-center justify-content-sm-between">
                         <div class="team_header section_header">
                             <span class="subtitle">La vérité sur l'ingénierie</span>
@@ -539,7 +534,7 @@
 
                         <div class="team_quote col-12 col-lg-6" data-aos="fade-left" data-aos-duration="300">
                             <div class="team_quote-wrapper">
-                                <div style="text-align: right; margin-bottom: -87px;">
+                                <div style="text-align: right; margin-bottom: -16px;">
                                     <svg
                                         class="quote-icon"
                                         width="80"
@@ -597,8 +592,8 @@
                 </div>
             </section>
 
-            <section class="blog section">
-                <div class="container" style="margin-top: -100px; margin-bottom: -120px;">
+            <section class="blog section" style="padding-top: 20px; padding-bottom: 20px;">
+                <div class="container">
                     <div class="wrapper d-flex flex-wrap align-items-end justify-content-sm-between">
                         <div class="blog_header section_header">
                             <span class="subtitle">Construire l'avenir</span>
