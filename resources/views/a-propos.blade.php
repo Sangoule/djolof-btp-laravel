@@ -29,7 +29,7 @@
         </header>
         <!-- ABOUT CONTENT START  -->
         <main>
-            <section class="hero section" style="padding-top: 25px;">
+            <section class="hero section" style="padding-top: 25px; margin-bottom: -90px;">
                 <div class="container d-flex flex-wrap flex-xl-nowrap align-items-xl-center justify-content-between">
                     <div class="hero_header section_header col-xl-auto">
                         <span class="subtitle" data-aos="fade-down">Qui sommes-nous ?</span>

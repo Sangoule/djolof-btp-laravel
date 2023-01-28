@@ -72,7 +72,7 @@
                 </div>
             </section>
             {{-- Pourquoi nous choisir --}}
-            <section class="features primary-bg section-nopb">
+            <section class="features primary-bg section-nopb" style="padding-bottom: 135px;">
                 <div class="container p-md-0" >
                     <div class="row g-0">
                         <div class="features_header section_header col-12 col-md-12 col-lg-6 col-xl-4">
@@ -329,7 +329,7 @@
                 <div style="margin-bottom: -100px;" ></div>
             </section>
             {{-- Ce que nous faisons --}}
-            <section class="services section" style="padding-top: 122px; padding-bottom: 30px; ">
+            <section class="services section" style="padding-top: 48px; padding-bottom: 30px; ">
                 <div class="container">
                     <div class="services_header section_header">
                         <span class="subtitle"> Ce que nous faisons </span>

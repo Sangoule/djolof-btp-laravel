@@ -1,5 +1,5 @@
 <nav class="header_navbar-nav">
-    <ul class="header_navbar-nav_list breadcrumbs d-flex align-items-center">
+    <ul class="header_navbar-nav_list ">
         <li class="list-item">
             <a class="link link--single " href="/" data-page="home">
                 Accueil
