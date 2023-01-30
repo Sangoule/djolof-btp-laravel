@@ -568,14 +568,14 @@
                                     <div class="wrapper d-flex align-items-center">
                                         <picture>
                                             <source
-                                                data-srcset="{{ asset('assets/img/logo-td.png') }}"
-                                                srcset="{{ asset('assets/img/logo-td.png') }}"
+                                                data-srcset="{{ asset('assets/img/logoM.png') }}"
+                                                srcset="{{ asset('assets/img/logoM.png') }}"
                                                 type="image/webp"
                                             />
                                             <img
                                                 class="team_quote-author_avatar lazy"
-                                                data-src="{{ asset('assets/img/logo-td.png') }}"
-                                                src="{{ asset('assets/img/logo-td.png') }}"
+                                                data-src="{{ asset('assets/img/logoM.png') }}"
+                                                src="{{ asset('assets/img/logoM.png') }}"
                                                 alt="Logo"
                                             />
                                         </picture>

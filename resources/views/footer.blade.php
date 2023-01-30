@@ -3,7 +3,7 @@
                 <div class="footer_main d-flex flex-wrap justify-content-md-between col-12">
                     <div class="footer_main-block col-sm-12 col-xl-auto">
                         <a class="brand d-inline-flex align-items-center justify-content-center" href="/">
-                            <img  src="{{ asset('assets/img/logo-td.png') }}" alt="logo Djolof-BTP">
+                            <img  src="{{ asset('assets/img/logoM.png') }}" width="100" height="100"  alt="logo Djolof-BTP">
 
                         </a>
                         <p class="footer_main-block_subtitle footer_main-block_subtitle--brand">

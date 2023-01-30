@@ -71,11 +71,11 @@
                     </div>
                     <div class="hero_img" data-aos="zoom-in" data-aos-duration="700">
                         <picture>
-                            <source data-srcset="{{ asset('assets/img/logo.jpeg') }}"  srcset="img/placeholder.jpg" type="image/webp" />
+                            <source data-srcset="{{ asset('assets/img/logoD.jpeg') }}"  srcset="img/placeholder.jpg" type="image/webp" />
                             <img
                                 class="hero_img-img lazy"
-                                data-src="{{ asset('assets/img/logo.jpeg') }}"
-                                src="{{ asset('assets/img/logo.jpeg') }}"
+                                data-src="{{ asset('assets/img/logoD.jpeg') }}"
+                                src="{{ asset('assets/img/logoD.jpeg') }}"
                                 alt="medias"
                             />
                         </picture>
