@@ -7,7 +7,7 @@
 
                         </a>
                         <p class="footer_main-block_subtitle footer_main-block_subtitle--brand">
-                            La société SICAT BTP, entreprise générale du bâtiment, met son savoir-faire et son expertise pour vous accompagner tout au long de vos projets de construction.
+                            La société DJOLOF BTP, entreprise générale du bâtiment, met son savoir-faire et son expertise pour vous accompagner tout au long de vos projets de construction.
                         </p>
                     </div>
                     <div class="footer_main-block col-12 col-sm-6 col-md-auto" style="text-align: center;">
