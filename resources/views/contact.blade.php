@@ -39,45 +39,59 @@
                                 Vous avez un projet de construction, d’acquisition d’une parcelle, un projet immobilier ; n’hésitez pas à nous contacter. Notre équipe de professionnel reste à votre disposition. Tel: +221 77.000.00.00 / +33.00.00.00.00
                             </p>
                         </div>
+                        
                         <form
-                            action="#"
+                            action="{{ route('contactez-nous') }}"
                             class="contact_form contact-form d-flex flex-wrap justify-content-between"
-                            method="POST"
+                            method="post"
                             name="feedbackForm"
                             data-type="feedback"
                         >
+                        @csrf
+                        @if(session()->has('message'))
+                            <div class="alert alert-success">
+                                {{ session()->get('message') }}
+                            </div>
+                        @endif
+
                             <input
                                 class="contact-form_field contact-form_field--half field required"
-                                name="feedbackName"
+                                name="name"
                                 id="feedbackName"
                                 type="text"
                                 placeholder="Nom"
-                            />
-                            <input
-                                class="contact-form_field contact-form_field--half field required"
-                                data-type="tel"
-                                type="text"
-                                name="feedbackTel"
-                                id="feedbackTel"
-                                placeholder="telephone"
+                                value="{{ old('name') }}"
                             />
                             <input
                                 class="contact-form_field field required"
                                 data-type="email"
-                                type="text"
-                                name="feedbackEmail"
+                                type="email"
+                                name="email"
                                 id="feedbackEmail"
                                 placeholder="Email "
+                                value="{{ old('email') }}"
+                            />
+                            <input
+                                class="contact-form_field  field required"
+                                data-type="text"
+                                type="text"
+                                name="objet"
+                                id="feedbackTel"
+                                placeholder="Objet"
+                                value="{{ old('objet') }}"
                             />
                             <textarea
                                 class="contact-form_field field required"
                                 data-type="message"
-                                name="feedbackMessage"
+                                name="message"
                                 id="feedbackMessage"
                                 placeholder="Message"
+                                value="{{ old('message') }}"
                             ></textarea>
                             <button type="submit" class="contact-form_btn btn">Envoyer message</button>
                         </form>
+
+
                     </div>
                     <div class="wrapper wrapper--bg col-12 col-lg-5">
                         <ul class="contact_info contact-info">

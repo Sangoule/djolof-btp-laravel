@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\MailController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,13 +25,12 @@ Route::get('/services', function () {
     return view('services');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+// Route::get('/contact', function () {
+//     return view('contact');
+// });
 
-// Route::get('contactMail', [ContactController::class, 'show'])->name('contacts.show');
-// Route::post('contactMail', [ContactController::class, 'submit'])->name('contacts.submit');
+Route::get('contact', [MailController::class, 'create']);
+Route::post('contactez-nous', [MailController::class, 'sendmail'])->name('contactez-nous');
 
-// Route::get('accueil', [Accueilontroller::class, 'accueil'])->name('accueil');
 
 
