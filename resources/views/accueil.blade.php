@@ -527,7 +527,7 @@
                                 </li>
                                 <li class="team_main-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="150">
                                     <i class="icon-check icon"></i>
-                                    Tous activités de gros oeuvres et second oeuvre
+                                    Tous activités de gros oeuvres et second oeuvres
                                 </li>
                             </ul>
                         </div>
@@ -580,7 +580,7 @@
                                             />
                                         </picture>
                                         <div class="wrapper wrapper--info">
-                                            <span class="team_quote-author_name">Daniel Strickland</span>
+                                            <span class="team_quote-author_name">El Hadj Mouhamadou M NDAO</span>
                                             <span class="team_quote-author_profession">Founder of the company</span>
                                         </div>
                                     </div>
@@ -675,7 +675,7 @@
                                 </div>
                                 <div class="text-wrapper d-flex flex-column justify-content-between">
 
-                                    <h4 class="title">Grand Palace</h4>
+                                    <h4 class="title">Espace Convivial</h4>
 
                                     <div class="divider--link">
                                     </div>

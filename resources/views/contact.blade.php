@@ -36,7 +36,7 @@
                                 N'hésitez pas à nous <span class="highlight">Contacter </span>
                             </h2>
                             <p class="text">
-                                Vous avez un projet de construction, d’acquisition d’une parcelle, un projet immobilier ; n’hésitez pas à nous contacter. Notre équipe de professionnel reste à votre disposition. Tel: +221 77.000.00.00 / +33.00.00.00.00
+                                Vous avez un projet de construction, d’acquisition d’une parcelle, un projet immobilier ; n’hésitez pas à nous contacter. Notre équipe de professionnel reste à votre disposition. Tel: +221 77 943 08 17 / +212 678751496
                             </p>
                         </div>
                         
@@ -102,15 +102,16 @@
                             <li class="contact-info_group">
                                 <span class="name">Email</span>
                                 <span class="content d-inline-flex flex-column">
-                                    <a class="link" href="mailto:example.com">info@construct.com</a>
-                                    <a class="link" href="mailto:example.com">support@construct.com</a>
+                                    <a class="link" href="mailto:example.com">contact@djolof-btp.com</a>
+                                    <a class="link" href="mailto:example.com">soconag@djolof-btp.com</a>
                                 </span>
                             </li>
                             <li class="contact-info_group">
                                 <span class="name">Phone</span>
                                 <span class="content d-inline-flex flex-column">
-                                    <a class="link" href="tel:+13136453395">1 - 313 - 645 - 3395</a>
-                                    <a class="link" href="tel:+14699702609">1 - 469 - 970 - 2609</a>
+                                    <a class="link" href="tel:+221779430817">77 943 08 17</a>
+                                    <a class="link" href="tel:+212 678751496">+212 678751496</a>
+                                    
                                 </span>
                             </li>
                         </ul>

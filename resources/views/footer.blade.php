@@ -15,8 +15,8 @@
                         <div class="group-wrapper d-flex justify-content-center">
                             <i class="icon-call icon"></i>
                             <div class="group d-flex flex-column">
-                                <a href="tel:+13136453395">1 - 313 - 645 - 3395</a>
-                                <a href="tel:+14699702609">1 - 469 - 970 - 2609</a>
+                                <a class="link" href="tel:+221779430817">77 943 08 17</a>
+                                <a class="link" href="tel:+212 678751496">+212 678751496</a>
                             </div>
                         </div>
                         <div class="group-wrapper d-flex justify-content-center">
@@ -49,7 +49,7 @@
                 </div>
                 <div class="footer_secondary col-12 d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
                     <p class="footer_secondary-copyright">
-                        <span>All rights reserved &copy; Copyrights 2023</span>
+                        <span>All rights reserved &copy; Djolof BTP 2024</span>
                     </p>
                     <ul class="socials d-flex align-items-center justify-content-start socials--alt">
                         <li class="socials_item">

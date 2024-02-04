@@ -1,4 +1,4 @@
-@include('head')
+    @include('head')
 
         {{-- <link rel="stylesheet" href="{{ asset('assets/css/index.min.css') }}" /> --}}
         <link rel="stylesheet" href="{{ asset('assets/css/about.min.css') }}" />
