@@ -31,7 +31,7 @@ jobs:
 
       - name: Deploy to Hostinger
         run: |
-          rsync -r --quiet $GITHUB_WORKSPACE/ u791134071@145.14.153.50://public_html/
+          rsync -r --quiet $GITHUB_WORKSPACE/ u791134071@145.14.153.50:/public_html/
           ssh -p 65002 u791134071@145.14.153.50 "cd /public_html/ && composer install --no-dev --optimize-autoloader && php artisan config:cache && php artisan route:cache"
 
     env:
