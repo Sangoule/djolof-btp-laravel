@@ -27,8 +27,7 @@ jobs:
       - name: Configure Environment
         run: cp .env.production .env
 
-      - name: Run Migrations
-        run: php artisan migrate --force
+      
 
       - name: Deploy to Hostinger
         run: |
