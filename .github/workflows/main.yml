@@ -21,7 +21,7 @@ jobs:
       - name: Install Dependencies
         run: composer install --no-interaction --prefer-dist --optimize-autoloader
 
-      - name: Configure Environment
+      - name: Copy .env to .env.production
         run: cp .env.production .env
 
       - name: Run Migrations
