@@ -26,6 +26,9 @@ jobs:
 
       - name: Run Migrations
         run: php artisan migrate --force
+        
+      - name: List Files in Current Directory
+        run: ls -al
 
       - name: Deploy to Hostinger
         run: |
