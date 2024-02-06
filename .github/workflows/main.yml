@@ -27,11 +27,7 @@ jobs:
       - name: Configure Environment
         run: cp .env.production .env
 
-      - name: Debug SSH Key
-        run: |
-          echo "$SSH_PRIVATE_KEY" > key.pem
-          cat key.pem
-      
+    
 
       - name: Deploy to Hostinger
         run: |
