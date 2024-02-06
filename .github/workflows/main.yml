@@ -31,7 +31,7 @@ jobs:
 
       - name: Deploy to Hostinger
         run: |
-          rsync -r --quiet -e 'ssh -p 65002' $GITHUB_WORKSPACE/ u791134071@145.14.153.50:/
+          rsync -r --quiet -e 'ssh -p 65002 -o StrictHostKeyChecking=no' $GITHUB_WORKSPACE/ u791134071@145.14.153.50:/
           ssh -p 65002 u791134071@145.14.153.50 "cd / && composer install --no-dev --optimize-autoloader && php artisan config:cache && php artisan route:cache"
     env:
       DB_CONNECTION: mysql
